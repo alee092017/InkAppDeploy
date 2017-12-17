@@ -1,5 +1,6 @@
 class PensController < ApplicationController
   before_action :set_pen, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!, excpt: [:index, :show]
 
   # GET /pens
   # GET /pens.json
@@ -14,7 +15,7 @@ class PensController < ApplicationController
 
   # GET /pens/new
   def new
-    @pen = Pen.new
+    @pen = current_user.pens.build
   end
 
   # GET /pens/1/edit
@@ -24,7 +25,7 @@ class PensController < ApplicationController
   # POST /pens
   # POST /pens.json
   def create
-    @pen = Pen.new(pen_params)
+    @pen = current_user.pens.build(pen_params)
 
     respond_to do |format|
       if @pen.save
