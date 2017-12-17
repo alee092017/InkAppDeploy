@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @pen.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @pen.description %>
+</p>
+
+<p>
+  <strong>Tip size:</strong>
+  <%= @pen.tip_size %>
+</p>
+
+<p>
+  <strong>Ink color:</strong>
+  <%= @pen.ink_color %>
+</p>
+
+<p>
+  <strong>Model no:</strong>
+  <%= @pen.model_no %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @pen.image_url %>
+</p>
+
+<%= link_to 'Edit', edit_pen_path(@pen) %> |
+<%= link_to 'Back', pens_path %>

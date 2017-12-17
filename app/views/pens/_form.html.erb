@@ -1,0 +1,47 @@
+<%= form_with(model: pen, local: true) do |form| %>
+  <% if pen.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(pen.errors.count, "error") %> prohibited this pen from being saved:</h2>
+
+      <ul>
+      <% pen.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :pen_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_area :description, id: :pen_description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :tip_size %>
+    <%= form.text_field :tip_size, id: :pen_tip_size %>
+  </div>
+
+  <div class="field">
+    <%= form.label :ink_color %>
+    <%= form.text_field :ink_color, id: :pen_ink_color %>
+  </div>
+
+  <div class="field">
+    <%= form.label :model_no %>
+    <%= form.text_field :model_no, id: :pen_model_no %>
+  </div>
+
+  <div class="field">
+    <%= form.label :image_url %>
+    <%= form.text_field :image_url, id: :pen_image_url %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
