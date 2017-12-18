@@ -11,6 +11,7 @@ class PensController < ApplicationController
   # GET /pens/1
   # GET /pens/1.json
   def show
+    @reviews = Review.where(pen_id: @pen.id).order("created_at DESC")
   end
 
   # GET /pens/new

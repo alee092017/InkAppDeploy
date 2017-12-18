@@ -4,7 +4,7 @@
       <div class="col-md-4">
         <%= image_tag @pen.image.url(:medium) %>
         <div class="table-responsive">
-          <div class="table">
+          <table class="table">
             <tbody>
               <tr>
                 <td><strong>Name:</strong></td>
@@ -31,8 +31,25 @@
                 <td><%= @pen.model_no %></td><br>
               </tr>
             </tbody>
-          </div>
+          </table>
+          <%= link_to "Write a Review!", new_pen_review_path(@pen) %>
         </div>
+      </div>
+      <div class="col-md-7 col-md-offset-1">
+        <h1 class="review_title"><%= @pen.name %></h1>
+        <p><%= @pen.description %></p>
+
+        <% if @reviews.blank? %>
+          <h3>so far no reviews, why don't you add one?</h3>
+          <%= link_to "Add a Review", new_pen_review_path(@pen), class: "btn btn-danger" %>
+        <% else %>
+          <% @reviews.each do |review| %>
+          <div class="reviews">
+            <p><%= review.rating %></p>
+            <p><%= review.review %></p>
+            <% end %>
+        <% end %>
+          </div>
       </div>
     </div>
   </div>
