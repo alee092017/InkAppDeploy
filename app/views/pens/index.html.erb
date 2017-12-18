@@ -1,3 +1,13 @@
+<!-- so...this doesn't actually do the same thing as the video b/c of the more recent version of rails? -->
+<% if !user_signed_in? %>
+  <div class="jumbotron">
+    <h1>Have a favorite pen (or pencil)?  Review it here!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolor error qui, amet ipsa nulla similique veniam nam officia, sequi incidunt. Laboriosam quia magnam molestiae, iste, eligendi quidem distinctio itaque.</p>
+    <p><% link_to "Sign up to write a review", new_user_registration_path, class: "btn btn-primary btn-lg" %></p>
+  </div>
+<% end %>
+
+
 <div class="row">
   <% @pens.each do |pen| %>
     <div class="col-sm-6 col-md-3">

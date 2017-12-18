@@ -1,5 +1,45 @@
-<!-- <p id="notice"><%= notice %></p> -->
+<div class="panel panel-default">
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-4">
+        <%= image_tag @pen.image.url(:medium) %>
+        <div class="table-responsive">
+          <div class="table">
+            <tbody>
+              <tr>
+                <td><strong>Name:</strong></td>
+                <td><%= @pen.name %></td><br>
+              </tr>
+              <tr>
+                <td><strong>Description:</strong></td>
+                <td><%= @pen.description %></td><br>
+              </tr>
+              <tr>
+                <td><strong>Tip size:</strong></td>
+                <td><%= @pen.tip_size %></td><br>
+              </tr>
+              <tr>
+                <td><strong>Ink color:</strong></td>
+                <td><%= @pen.ink_color %></td><br>
+              </tr>
+              <tr>
+                <td><strong>Model no:</strong></td>
+                <td><%= @pen.model_no %></td><br>
+              </tr>
+            </tbody>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<%= link_to 'Edit', edit_pen_path(@pen) %> |
+<%= link_to 'Back', pens_path %>
+
+
+<!-- <p id="notice"><%= notice %></p> -->
+<!-- =begin
 <%= image_tag @pen.image.url(:medium) %>
 
 <p>
@@ -31,6 +71,4 @@
   <strong>Image url:</strong>
   <%= @pen.image_url %>
 </p>
-
-<%= link_to 'Edit', edit_pen_path(@pen) %> |
-<%= link_to 'Back', pens_path %>
+=end -->
