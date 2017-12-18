@@ -18,6 +18,7 @@
   <tbody>
     <% @pens.each do |pen| %>
       <tr>
+        <td><%= image_tag pen.image.url(:medium) %></td>
         <td><%= pen.name %></td>
         <td><%= pen.description %></td>
         <td><%= pen.tip_size %></td>

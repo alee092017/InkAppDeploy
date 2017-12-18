@@ -70,6 +70,6 @@ class PensController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def pen_params
-      params.require(:pen).permit(:name, :description, :tip_size, :ink_color, :model_no, :image_url)
+      params.require(:pen).permit(:name, :description, :tip_size, :ink_color, :model_no, :image_url, :image)
     end
 end
