@@ -11,10 +11,6 @@
                 <td><%= @pen.name %></td><br>
               </tr>
               <tr>
-                <td><strong>Rating:</strong></td>
-                <td><%= @pen.rating %></td><br>
-              </tr>
-              <tr>
                 <td><strong>Description:</strong></td>
                 <td><%= @pen.description %></td><br>
               </tr>
@@ -45,12 +41,10 @@
         <% else %>
           <% @reviews.each do |review| %>
           <div class="reviews">
-            <div class="star-rating" data-score= <%= review.rating %> ></div>
-<!--             <p><%= review.rating %></p> -->
+            <p><%= review.rating %></p>
             <p><%= review.review %></p>
             <% end %>
         <% end %>
-          </div>
       </div>
     </div>
   </div>
@@ -69,39 +63,3 @@
   });
 </script>
 
-
-
-<!-- <p id="notice"><%= notice %></p> -->
-<!-- =begin
-<%= image_tag @pen.image.url(:medium) %>
-
-<p>
-  <strong>Name:</strong>
-  <%= @pen.name %>
-</p>
-
-<p>
-  <strong>Description:</strong>
-  <%= @pen.description %>
-</p>
-
-<p>
-  <strong>Tip size:</strong>
-  <%= @pen.tip_size %>
-</p>
-
-<p>
-  <strong>Ink color:</strong>
-  <%= @pen.ink_color %>
-</p>
-
-<p>
-  <strong>Model no:</strong>
-  <%= @pen.model_no %>
-</p>
-
-<p>
-  <strong>Image url:</strong>
-  <%= @pen.image_url %>
-</p>
-=end -->
