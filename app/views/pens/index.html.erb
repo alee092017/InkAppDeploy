@@ -1,4 +1,16 @@
-<p id="notice"><%= notice %></p>
+<div class="row">
+  <% @pens.each do |pen| %>
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <%= link_to (image_tag pen.image.url(:medium), class: 'image'), pen %>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+
+<!-- CODE THAT WAS ORIGINALLY IN THE FILE -->
+<!-- <p id="notice"><%= notice %></p>
 
 <h1>Pens</h1>
 
@@ -36,3 +48,4 @@
 <br>
 
 <%= link_to 'New Pen', new_pen_path %>
+ -->
