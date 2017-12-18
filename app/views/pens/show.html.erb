@@ -45,7 +45,8 @@
         <% else %>
           <% @reviews.each do |review| %>
           <div class="reviews">
-            <p><%= review.rating %></p>
+            <div class="star-rating" data-score= <%= review.rating %> ></div>
+<!--             <p><%= review.rating %></p> -->
             <p><%= review.review %></p>
             <% end %>
         <% end %>
@@ -57,6 +58,17 @@
 
 <%= link_to 'Edit', edit_pen_path(@pen) %> |
 <%= link_to 'Back', pens_path %>
+
+<script>
+    $('.star-rating').raty({
+      path: '/assets/',
+      readOnly: true,
+      score: function() {
+            return $(this).attr('data-score');
+    }
+  });
+</script>
+
 
 
 <!-- <p id="notice"><%= notice %></p> -->
