@@ -41,6 +41,8 @@ gem 'paperclip', '~> 5.1'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 # adding SearchKick gem for easy search
 gem 'searchkick', '~> 2.4'
+#keep getting jquery errors jquery call in coffee.js file --jquery not found...hope this solves it?
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
