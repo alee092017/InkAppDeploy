@@ -10,7 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171218161401) do
+ActiveRecord::Schema.define(version: 20171218213909) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "pens", force: :cascade do |t|
     t.string "name"
@@ -18,11 +21,9 @@ ActiveRecord::Schema.define(version: 20171218161401) do
     t.string "tip_size"
     t.string "ink_color"
     t.string "model_no"
-    t.string "image_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "user_id"
-    t.integer "rating"
     t.string "image_file_name"
     t.string "image_content_type"
     t.integer "image_file_size"
