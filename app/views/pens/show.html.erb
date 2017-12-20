@@ -30,7 +30,12 @@
               </tr>
             </tbody>
           </table>
-          <%= link_to "Write a Review!", new_pen_review_path(@pen) %>
+          <%= link_to "Write a Review!", new_pen_review_path(@pen) %>  |
+          <%= link_to 'Edit', edit_pen_path(@pen) %> |
+<%= link_to "Delete", @pen, method: :delete, data: {confirm: "Do you really want to delete this?"} %>  |
+          <%= link_to 'Back', pens_path %>
+
+
         </div>
       </div>
       <div class="col-md-7 col-md-offset-1">
@@ -52,16 +57,7 @@
   </div>
 </div>
 
-<%= link_to 'Edit', edit_pen_path(@pen) %> |
-<%= link_to 'Back', pens_path %>
 
-<script>
-    $('.star-rating').raty({
-      path: '/assets/',
-      readOnly: true,
-      score: function() {
-            return $(this).attr('data-score');
-    }
-  });
-</script>
+
+
 
