@@ -1,0 +1,2093 @@
+Last login: Mon Dec 18 13:25:29 on ttys002
+You have mail.
+ GA General Assembly  Web Development Immersive 
+------------------------------------------
+git version 2.14.1
+Homebrew 1.4.0 Homebrew/homebrew-core (git revision 2d612; last commit 2017-12-17)
+ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-darwin16]
+node v8.5.0
+psql (PostgreSQL) 9.6.5
+------------------------------------------
+type unwelcome to remove this message
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkApp on master
+$ cd ../../../../../
+andrealee ~/CODE
+$ cd ../
+andrealee ~
+$ ll
+total 7.8M
+drwxr-xr-x+  77 andrealee   501 2.6K Dec 12 22:14  ./
+drwxr-xr-x    6 root      admin  204 Sep 20 17:44  ../
+drwx------   35 andrealee   501 1.2K Dec 19 15:03  .Trash/
+drwxr-x--x    3 andrealee   501  102 Jul  9  2008  .adobe/
+drwxr-xr-x   14 andrealee   501  476 Oct 21 13:55  .atom/
+drwx------  257 andrealee   501 8.6K Dec 19 23:52  .bash_sessions/
+drwxr-xr-x    3 andrealee   501  102 Nov 30 11:54  .bundle/
+drwxr-xr-x   34 andrealee   501 1.2K Jan 27  2011  .calibre-fontconfig/
+drwxr-xr-x    5 andrealee   501  170 Oct 23 14:17  .config/
+drwx------    3 andrealee   501  102 Jul 22  2008  .cups/
+drwxr-xr-x  107 andrealee   501 3.6K Jun 22  2009  .dvdcss/
+drwxr-xr-x   34 andrealee   501 1.2K Jan 27  2011  .fontconfig/
+drwxr-xr-x   14 andrealee   501  476 Jan 27  2011  .fonts/
+drwxr-xr-x    3 andrealee   501  102 Sep 25 13:57  .gem/
+drwxr-xr-x    3 andrealee   501  102 Oct 23 14:17  .local/
+drwxrwxrwx    3 andrealee   501  102 Sep 14  2007  .mplayer/
+drwxr-xr-x    3 andrealee   501  102 Oct 24 14:04  .node-gyp/
+drwxr-xr-x    7 andrealee   501  238 Nov 30 15:48  .npm/
+drwxr-xr-x   24 andrealee   501  816 Sep 25 14:05  .nvm/
+drwxr-xr-x    6 andrealee   501  204 Nov 20 10:31  .pgadmin/
+drwxr-xr-x   21 andrealee   501  714 Sep 25 13:57  .rbenv/
+drwx------    4 andrealee   501  136 Sep 25 13:51  .ssh/
+drwxr-xr-x    6 andrealee   501  204 Sep 25 13:53  .subversion/
+drwxr-xr-x    5 andrealee   501  170 Sep 25 14:09  .wdi/
+drwx------    3 andrealee   501  102 Oct  3 18:38  Applications/
+drwxr-xr-x    4 andrealee   501  136 Sep 27 19:52  CODE/
+drwxr-xr-x   18 andrealee   501  612 Jan 28  2011 'Calibre Library'/
+drwx------+  27 andrealee   501  918 Dec 18 00:04  Desktop/
+drwx------+  35 andrealee   501 1.2K Oct  5 00:05  Documents/
+drwx------+ 368 andrealee   501  13K Dec 19 23:49  Downloads/
+drwx------+  71 andrealee   501 2.4K Dec  6 00:12  Library/
+drwx------+   7 andrealee   501  238 May 11  2008  Movies/
+drwx------+   8 andrealee   501  272 Jul 16  2013  Music/
+drwx------+  10 andrealee   501  340 Sep 27  2015  Pictures/
+drwxr-xr-x+   5 andrealee   501  170 Jun  5  2013  Public/
+drwxr-xr-x+   6 andrealee   501  204 Mar 18  2005  Sites/
+drwxrwxrwx   79 andrealee   501 2.7K Feb 14  2009 'dahlia etc'/
+drwxr-xr-x    3 andrealee   501  102 Sep  7 17:44  funn_things/
+drwxr-xr-x    8 andrealee   501  272 Dec 20  2007  iPodderData/
+-r--------    1 andrealee   501    7 Aug 17 11:09  .CFUserTextEncoding
+-rw-r--r--    1 andrealee   501  33K Dec 19 23:38  .DS_Store
+-rw-------    1 andrealee   501  89K Dec 18 13:10  .bash_history
+-rw-r--r--    1 andrealee   501 9.1K Oct  4 11:25  .bash_profile
+-rw-r--r--    1 andrealee   501 4.2K Sep 25 14:09  .bash_prompt.sh
+-rw-r--r--    1 andrealee   501 2.3K Sep 25 14:09  .bash_wdi_command.sh
+-rwxr-xr-x    1 andrealee   501   39 Sep 25 14:09  .bashrc*
+-rw-r--r--    1 andrealee   501  602 Sep 25 14:09  .editorconfig
+-rw-r--r--    1 andrealee   501  210 Sep 25 14:09  .gemrc
+-rw-r--r--    1 andrealee   501  70K Sep 25 13:52  .git-completion.bash
+-rw-r--r--    1 andrealee   501  749 Sep 25 13:52  .gitconfig
+-rw-r--r--    1 andrealee   501 1.3K Sep 25 14:09  .gitignore_global
+-rw-r--r--    1 andrealee   501  333 Sep 25 14:09  .gitmessage.txt
+-rw-r--r--    1 andrealee   501    0 Sep 25 15:58  .hidden
+-rw-r--r--    1 andrealee   501  593 Sep 25 14:09  .inputrc
+-rw-r--r--    1 andrealee   501  354 Sep 25 14:09  .irbrc
+-rw-------    1 andrealee   501   44 Sep 20 23:36  .lesshst
+-rw-------    1 andrealee   501  203 Oct 23 14:17  .netrc
+-rw-------    1 andrealee   501  19K Dec 10 22:19  .node_repl_history
+-rw-r--r--    1 andrealee   501    7 Sep 25 14:09  .nvmrc
+-rw-------    1 andrealee   501  700 Dec  1 10:20  .pry_history
+-rw-r--r--    1 andrealee   501  353 Sep 25 14:09  .pryrc
+-rw-------    1 andrealee   501  17K Dec 12 22:14  .psql_history
+-rw-------    1 andrealee   501    0 Nov 28 15:52  .psql_history-99289.tmp
+-rw-r--r--    1 andrealee   501  981 Sep 25 14:09  .welcome_prompt.sh
+-rw-r--r--    1 andrealee   501  116 Dec 11 13:20  .yarnrc
+-rw-r--r--    1 andrealee   501    0 Jul 24  2013  071913-TODO.txt
+-rw-r--r--    1 andrealee   501  240 Dec 23  2010  12-20-2010.txt
+-rw-r--r--    1 andrealee   501   20 Sep 25 13:51  2
+-rw-r--r--    1 andrealee   501 2.3M Sep 16  2013 'Downloads-1.(null)'
+-rw-r--r--    1 andrealee   501 2.9M Sep 16  2013 'Downloads-2.(null)'
+-rw-r--r--    1 andrealee   501 1.6M Jul 24  2013 'How to Exploit the Stickies App in OS X - The Mac Observer.pdf'
+-rw-r--r--    1 andrealee   501    4 Jul 24  2013  RANDOMSTUFF.txt
+lrwxr-xr-x    1 andrealee   501   59 Mar 17  2005 'Send Registration' -> '/Users/andrealee/Library/Assistants/Send Registration.setup'
+-rw-r--r--    1 andrealee   501 727K Aug 25  2013  Untitled-1.pdf
+-rw-r--r--    1 andrealee   501    8 May 11  2008  loc.txt
+-rw-r--r--    1 andrealee   501  460 Jun 18  2013  oldToDo-122310.txt
+-rw-r--r--    1 andrealee   501   34 May 11  2008  tmp1.txt
+andrealee ~
+$ cd ..
+andrealee /Users
+$ ll
+total 0
+drwxr-xr-x   6 root      admin   204 Sep 20 17:44 ./
+drwxr-xr-x  44 root      wheel  1.6K Nov 26 04:05 ../
+drwxr-xr-x+ 12 Guest     _guest  408 Sep 20 17:44 Guest/
+drwxrwxrwt   9 root      wheel   306 Aug 17 10:58 Shared/
+drwxr-xr-x+ 77 andrealee    501 2.6K Dec 12 22:14 andrealee/
+-rw-r--r--   1 root      wheel     0 Jul 30  2016 .localized
+andrealee /Users
+$ cd andrealee/
+andrealee ~
+$ cd Downloads/
+andrealee ~/Downloads
+$ tar -xzf elasticsearch-6.1.1.tar.gz
+andrealee ~/Downloads
+$ cd elasticsearch-6.1.1/
+andrealee ~/Downloads/elasticsearch-6.1.1
+$ ll
+total 212K
+drwxr-xr-x   10 andrealee 501  340 Dec 17 15:24 ./
+drwx------+ 369 andrealee 501  13K Dec 19 23:52 ../
+drwxr-xr-x   15 andrealee 501  510 Dec 17 15:24 bin/
+drwxr-xr-x    5 andrealee 501  170 Dec 17 15:24 config/
+drwxr-xr-x   38 andrealee 501 1.3K Dec 17 15:24 lib/
+drwxr-xr-x   15 andrealee 501  510 Dec 17 15:24 modules/
+drwxr-xr-x    2 andrealee 501   68 Dec 17 15:24 plugins/
+-rw-r--r--    1 andrealee 501  12K Dec 17 15:22 LICENSE.txt
+-rw-r--r--    1 andrealee 501 188K Dec 17 15:24 NOTICE.txt
+-rw-r--r--    1 andrealee 501 9.2K Dec 17 15:22 README.textile
+andrealee ~/Downloads/elasticsearch-6.1.1
+$ cd ../../../
+andrealee /Users
+$ ll
+total 0
+drwxr-xr-x   6 root      admin   204 Sep 20 17:44 ./
+drwxr-xr-x  44 root      wheel  1.6K Nov 26 04:05 ../
+drwxr-xr-x+ 12 Guest     _guest  408 Sep 20 17:44 Guest/
+drwxrwxrwt   9 root      wheel   306 Aug 17 10:58 Shared/
+drwxr-xr-x+ 78 andrealee    501 2.6K Dec 20 00:06 andrealee/
+-rw-r--r--   1 root      wheel     0 Jul 30  2016 .localized
+andrealee /Users
+$ cd andrealee/
+andrealee ~
+$ cd CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy on master[?]
+$ heroku create
+Creating app... done, ⬢ shielded-reaches-35099
+https://shielded-reaches-35099.herokuapp.com/ | https://git.heroku.com/shielded-reaches-35099.git
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy on master[?]
+$ git push heroku master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://git.heroku.com/shielded-reaches-35099.git'
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy on master[?]
+$ git remote origin -v
+error: Unknown subcommand: origin
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy on master[?]
+$ ll
+total 0
+drwxr-xr-x  4 andrealee 501 136 Dec 20 01:25 ./
+drwxr-xr-x  5 andrealee 501 170 Dec 20 01:16 ../
+drwxr-xr-x 10 andrealee 501 340 Dec 20 01:46 .git/
+drwxr-xr-x 21 andrealee 501 714 Dec 20 01:25 InkApp/
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy on master[?]
+$ git remote add origin https://github.com/alee092017/InkAppDeploy.git
+fatal: remote origin already exists.
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy on master[?]
+$ git remote -v
+heroku	https://git.heroku.com/shielded-reaches-35099.git (fetch)
+heroku	https://git.heroku.com/shielded-reaches-35099.git (push)
+origin	https://github.com/alee092017/InkAppDeploy.git (fetch)
+origin	https://github.com/alee092017/InkAppDeploy.git (push)
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy on master[?]
+$ git push origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/alee092017/InkAppDeploy.git'
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy on master[?]
+$ git push heroku master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://git.heroku.com/shielded-reaches-35099.git'
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy on master[?]
+$ cd ../../
+andrealee ~/CODE/wdi/UNIT_04/Project
+$ cd InkApp329/
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329
+$ cd ../InkApp329/
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329
+$ cd InkAppDeploy/InkApp/
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ ll
+total 40K
+drwxr-xr-x 21 andrealee 501  714 Dec 20 01:25 ./
+drwxr-xr-x  4 andrealee 501  136 Dec 20 01:25 ../
+drwxr-xr-x 14 andrealee 501  476 Dec 20 01:25 .git/
+drwxr-xr-x 11 andrealee 501  374 Dec 20 01:25 app/
+drwxr-xr-x  9 andrealee 501  306 Dec 20 01:25 bin/
+drwxr-xr-x 14 andrealee 501  476 Dec 20 01:25 config/
+drwxr-xr-x  6 andrealee 501  204 Dec 20 01:25 db/
+drwxr-xr-x  4 andrealee 501  136 Dec 20 01:25 lib/
+drwxr-xr-x  4 andrealee 501  136 Dec 20 01:25 log/
+drwxr-xr-x 10 andrealee 501  340 Dec 20 01:25 public/
+drwxr-xr-x 11 andrealee 501  374 Dec 20 01:25 test/
+drwxr-xr-x  7 andrealee 501  238 Dec 20 01:25 tmp/
+drwxr-xr-x  3 andrealee 501  102 Dec 20 01:25 vendor/
+-rw-r--r--  1 andrealee 501 6.1K Dec 20 01:25 .DS_Store
+-rw-r--r--  1 andrealee 501  536 Dec 20 01:25 .gitignore
+-rw-r--r--  1 andrealee 501 2.4K Dec 20 01:25 Gemfile
+-rw-r--r--  1 andrealee 501 6.1K Dec 20 01:25 Gemfile.lock
+-rw-r--r--  1 andrealee 501  374 Dec 20 01:25 README.md
+-rw-r--r--  1 andrealee 501  227 Dec 20 01:25 Rakefile
+-rw-r--r--  1 andrealee 501  130 Dec 20 01:25 config.ru
+-rw-r--r--  1 andrealee 501   64 Dec 20 01:25 package.json
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ git push heroku master
+fatal: 'heroku' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ heroku login
+Enter your Heroku credentials:
+Email: lee.ays.lee@gmail.com
+Password: *********
+Logged in as lee.ays.lee@gmail.com
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ git push origin master
+Everything up-to-date
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ git push heroku master
+fatal: 'heroku' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ git push heroku master
+fatal: 'heroku' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ heroku create
+Creating app... done, ⬢ radiant-brook-89291
+https://radiant-brook-89291.herokuapp.com/ | https://git.heroku.com/radiant-brook-89291.git
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ git push heroku master
+Counting objects: 450, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (425/425), done.
+Writing objects: 100% (450/450), 626.34 KiB | 8.24 MiB/s, done.
+Total 450 (delta 210), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote:  !     Warning: Multiple default buildpacks reported the ability to handle this app. The first buildpack in the list below will be used.
+remote: 			Detected buildpacks: Ruby,Node.js
+remote: 			See https://devcenter.heroku.com/articles/buildpacks#buildpack-detect-order
+remote: -----> Ruby app detected
+remote: -----> Compiling Ruby/Rails
+remote: -----> Using Ruby version: ruby-2.3.4
+remote: -----> Installing dependencies using bundler 1.15.2
+remote:        Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment
+remote:        Warning: the running version of Bundler (1.15.2) is older than the version that created the lockfile (1.16.0). We suggest you upgrade to the latest version of Bundler by running `gem install bundler`.
+remote:        Fetching gem metadata from https://rubygems.org/........
+remote:        Fetching version metadata from https://rubygems.org/..
+remote:        Fetching dependency metadata from https://rubygems.org/.
+remote:        Fetching rake 12.3.0
+remote:        Fetching concurrent-ruby 1.0.5
+remote:        Fetching minitest 5.10.3
+remote:        Installing rake 12.3.0
+remote:        Installing minitest 5.10.3
+remote:        Installing concurrent-ruby 1.0.5
+remote:        Fetching thread_safe 0.3.6
+remote:        Fetching builder 3.2.3
+remote:        Installing thread_safe 0.3.6
+remote:        Installing builder 3.2.3
+remote:        Fetching erubi 1.7.0
+remote:        Fetching mini_portile2 2.3.0
+remote:        Installing erubi 1.7.0
+remote:        Installing mini_portile2 2.3.0
+remote:        Fetching crass 1.0.3
+remote:        Fetching rack 2.0.3
+remote:        Installing crass 1.0.3
+remote:        Fetching nio4r 2.1.0
+remote:        Installing nio4r 2.1.0 with native extensions
+remote:        Installing rack 2.0.3
+remote:        Fetching websocket-extensions 0.1.3
+remote:        Installing websocket-extensions 0.1.3
+remote:        Fetching mini_mime 1.0.0
+remote:        Installing mini_mime 1.0.0
+remote:        Fetching arel 8.0.0
+remote:        Installing arel 8.0.0
+remote:        Fetching execjs 2.7.0
+remote:        Installing execjs 2.7.0
+remote:        Fetching bcrypt 3.1.11
+remote:        Fetching rb-fsevent 0.10.2
+remote:        Installing bcrypt 3.1.11 with native extensions
+remote:        Installing rb-fsevent 0.10.2
+remote:        Fetching ffi 1.9.18
+remote:        Installing ffi 1.9.18 with native extensions
+remote:        Using bundler 1.15.2
+remote:        Fetching climate_control 0.2.0
+remote:        Installing climate_control 0.2.0
+remote:        Fetching coffee-script-source 1.12.2
+remote:        Installing coffee-script-source 1.12.2
+remote:        Fetching method_source 0.9.0
+remote:        Installing method_source 0.9.0
+remote:        Fetching thor 0.20.0
+remote:        Installing thor 0.20.0
+remote:        Fetching orm_adapter 0.5.0
+remote:        Installing orm_adapter 0.5.0
+remote:        Fetching multi_json 1.12.2
+remote:        Installing multi_json 1.12.2
+remote:        Fetching multipart-post 2.0.0
+remote:        Installing multipart-post 2.0.0
+remote:        Fetching hashie 3.5.6
+remote:        Installing hashie 3.5.6
+remote:        Fetching mime-types-data 3.2016.0521
+remote:        Installing mime-types-data 3.2016.0521
+remote:        Fetching mimemagic 0.3.2
+remote:        Installing mimemagic 0.3.2
+remote:        Fetching puma 3.11.0
+remote:        Installing puma 3.11.0 with native extensions
+remote:        Fetching tilt 2.0.8
+remote:        Installing tilt 2.0.8
+remote:        Fetching sqlite3 1.3.13
+remote:        Installing sqlite3 1.3.13 with native extensions
+remote:        Fetching turbolinks-source 5.0.3
+remote:        Installing turbolinks-source 5.0.3
+remote:        Fetching i18n 0.9.1
+remote:        Installing i18n 0.9.1
+remote:        Fetching tzinfo 1.2.4
+remote:        Installing tzinfo 1.2.4
+remote:        Fetching nokogiri 1.8.1
+remote:        Installing nokogiri 1.8.1 with native extensions
+remote:        Fetching websocket-driver 0.6.5
+remote:        Installing websocket-driver 0.6.5 with native extensions
+remote:        Fetching mail 2.7.0
+remote:        Installing mail 2.7.0
+remote:        Fetching rack-test 0.8.2
+remote:        Installing rack-test 0.8.2
+remote:        Fetching warden 1.2.7
+remote:        Installing warden 1.2.7
+remote:        Fetching sprockets 3.7.1
+remote:        Installing sprockets 3.7.1
+remote:        Fetching autoprefixer-rails 7.2.3
+remote:        Installing autoprefixer-rails 7.2.3
+remote:        Fetching uglifier 4.0.2
+remote:        Installing uglifier 4.0.2
+remote:        Fetching cocaine 0.5.8
+remote:        Installing cocaine 0.5.8
+remote:        Fetching coffee-script 2.4.1
+remote:        Installing coffee-script 2.4.1
+remote:        Fetching elasticsearch-api 6.0.0
+remote:        Installing elasticsearch-api 6.0.0
+remote:        Fetching faraday 0.13.1
+remote:        Installing faraday 0.13.1
+remote:        Fetching mime-types 3.1
+remote:        Installing mime-types 3.1
+remote:        Fetching rb-inotify 0.9.10
+remote:        Installing rb-inotify 0.9.10
+remote:        Fetching turbolinks 5.0.1
+remote:        Installing turbolinks 5.0.1
+remote:        Fetching activesupport 5.1.4
+remote:        Installing activesupport 5.1.4
+remote:        The latest bundler is 1.16.0, but you are currently running 1.15.2.
+remote:        To update, run `gem install bundler`
+remote:        Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+remote:        current directory:
+remote:        /tmp/build_c884d783db9d04233edd32d3f6dfda2a/vendor/bundle/ruby/2.3.0/gems/sqlite3-1.3.13/ext/sqlite
+remote:        /tmp/build_c884d783db9d04233edd32d3f6dfda2a/vendor/ruby-2.3.4/bin/ruby -r
+remote:        ./siteconf20171220-224-8vja9f.rb extconf.rb
+remote:        checking for sqlite3.h... no
+remote:        sqlite3.h is missing. Try 'brew install sqlite3',
+remote:        'yum install sqlite-devel' or 'apt-get install libsqlite3-dev'
+remote:        and check your shared library search path (the
+remote:        location where your sqlite3 shared library is located).
+remote:        *** extconf.rb failed ***
+remote:        Could not create Makefile due to some reason, probably lack of necessary
+remote:        libraries and/or headers.  Check the mkmf.log file for more details.  You may
+remote:        need configuration options.
+remote:        Provided configuration options:
+remote:        --with-opt-dir
+remote:        --without-opt-dir
+remote:        --with-opt-include
+remote:        --without-opt-include=${opt-dir}/include
+remote:        --with-opt-lib
+remote:        --without-opt-lib=${opt-dir}/lib
+remote:        --with-make-prog
+remote:        --without-make-prog
+remote:        --srcdir=.
+remote:        --curdir
+remote:        --ruby=/tmp/build_c884d783db9d04233edd32d3f6dfda2a/vendor/ruby-2.3.4/bin/$(RUBY_BASE_NAME)
+remote:        --with-sqlite3-config
+remote:        --without-sqlite3-config
+remote:        --with-pkg-config
+remote:        --without-pkg-config
+remote:        --with-sqlite3-dir
+remote:        --without-sqlite3-dir
+remote:        --with-sqlite3-include
+remote:        --without-sqlite3-include=${sqlite3-dir}/include
+remote:        --with-sqlite3-lib
+remote:        --without-sqlite3-lib=${sqlite3-dir}/lib
+remote:        To see why this extension failed to compile, please check the mkmf.log which can
+remote:        be found here:
+remote:        /tmp/build_c884d783db9d04233edd32d3f6dfda2a/vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0/sqlite3-1.3.13/mkmf.log
+remote:        extconf failed, exit code 1
+remote:        Gem files will remain installed in
+remote:        /tmp/build_c884d783db9d04233edd32d3f6dfda2a/vendor/bundle/ruby/2.3.0/gems/sqlite3-1.3.13
+remote:        for inspection.
+remote:        Results logged to
+remote:        /tmp/build_c884d783db9d04233edd32d3f6dfda2a/vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0/sqlite3-1.3.13/gem_make.out
+remote:        An error occurred while installing sqlite3 (1.3.13), and Bundler cannot
+remote:        continue.
+remote:        Make sure that `gem install sqlite3 -v '1.3.13'` succeeds before bundling.
+remote:        In Gemfile:
+remote:        sqlite3
+remote:        Bundler Output: Warning: the running version of Bundler (1.15.2) is older than the version that created the lockfile (1.16.0). We suggest you upgrade to the latest version of Bundler by running `gem install bundler`.
+remote:        Fetching gem metadata from https://rubygems.org/........
+remote:        Fetching version metadata from https://rubygems.org/..
+remote:        Fetching dependency metadata from https://rubygems.org/.
+remote:        Fetching rake 12.3.0
+remote:        Fetching concurrent-ruby 1.0.5
+remote:        Fetching minitest 5.10.3
+remote:        Installing rake 12.3.0
+remote:        Installing minitest 5.10.3
+remote:        Installing concurrent-ruby 1.0.5
+remote:        Fetching thread_safe 0.3.6
+remote:        Fetching builder 3.2.3
+remote:        Installing thread_safe 0.3.6
+remote:        Installing builder 3.2.3
+remote:        Fetching erubi 1.7.0
+remote:        Fetching mini_portile2 2.3.0
+remote:        Installing erubi 1.7.0
+remote:        Installing mini_portile2 2.3.0
+remote:        Fetching crass 1.0.3
+remote:        Fetching rack 2.0.3
+remote:        Installing crass 1.0.3
+remote:        Fetching nio4r 2.1.0
+remote:        Installing nio4r 2.1.0 with native extensions
+remote:        Installing rack 2.0.3
+remote:        Fetching websocket-extensions 0.1.3
+remote:        Installing websocket-extensions 0.1.3
+remote:        Fetching mini_mime 1.0.0
+remote:        Installing mini_mime 1.0.0
+remote:        Fetching arel 8.0.0
+remote:        Installing arel 8.0.0
+remote:        Fetching execjs 2.7.0
+remote:        Installing execjs 2.7.0
+remote:        Fetching bcrypt 3.1.11
+remote:        Fetching rb-fsevent 0.10.2
+remote:        Installing bcrypt 3.1.11 with native extensions
+remote:        Installing rb-fsevent 0.10.2
+remote:        Fetching ffi 1.9.18
+remote:        Installing ffi 1.9.18 with native extensions
+remote:        Using bundler 1.15.2
+remote:        Fetching climate_control 0.2.0
+remote:        Installing climate_control 0.2.0
+remote:        Fetching coffee-script-source 1.12.2
+remote:        Installing coffee-script-source 1.12.2
+remote:        Fetching method_source 0.9.0
+remote:        Installing method_source 0.9.0
+remote:        Fetching thor 0.20.0
+remote:        Installing thor 0.20.0
+remote:        Fetching orm_adapter 0.5.0
+remote:        Installing orm_adapter 0.5.0
+remote:        Fetching multi_json 1.12.2
+remote:        Installing multi_json 1.12.2
+remote:        Fetching multipart-post 2.0.0
+remote:        Installing multipart-post 2.0.0
+remote:        Fetching hashie 3.5.6
+remote:        Installing hashie 3.5.6
+remote:        Fetching mime-types-data 3.2016.0521
+remote:        Installing mime-types-data 3.2016.0521
+remote:        Fetching mimemagic 0.3.2
+remote:        Installing mimemagic 0.3.2
+remote:        Fetching puma 3.11.0
+remote:        Installing puma 3.11.0 with native extensions
+remote:        Fetching tilt 2.0.8
+remote:        Installing tilt 2.0.8
+remote:        Fetching sqlite3 1.3.13
+remote:        Installing sqlite3 1.3.13 with native extensions
+remote:        Fetching turbolinks-source 5.0.3
+remote:        Installing turbolinks-source 5.0.3
+remote:        Fetching i18n 0.9.1
+remote:        Installing i18n 0.9.1
+remote:        Fetching tzinfo 1.2.4
+remote:        Installing tzinfo 1.2.4
+remote:        Fetching nokogiri 1.8.1
+remote:        Installing nokogiri 1.8.1 with native extensions
+remote:        Fetching websocket-driver 0.6.5
+remote:        Installing websocket-driver 0.6.5 with native extensions
+remote:        Fetching mail 2.7.0
+remote:        Installing mail 2.7.0
+remote:        Fetching rack-test 0.8.2
+remote:        Installing rack-test 0.8.2
+remote:        Fetching warden 1.2.7
+remote:        Installing warden 1.2.7
+remote:        Fetching sprockets 3.7.1
+remote:        Installing sprockets 3.7.1
+remote:        Fetching autoprefixer-rails 7.2.3
+remote:        Installing autoprefixer-rails 7.2.3
+remote:        Fetching uglifier 4.0.2
+remote:        Installing uglifier 4.0.2
+remote:        Fetching cocaine 0.5.8
+remote:        Installing cocaine 0.5.8
+remote:        Fetching coffee-script 2.4.1
+remote:        Installing coffee-script 2.4.1
+remote:        Fetching elasticsearch-api 6.0.0
+remote:        Installing elasticsearch-api 6.0.0
+remote:        Fetching faraday 0.13.1
+remote:        Installing faraday 0.13.1
+remote:        Fetching mime-types 3.1
+remote:        Installing mime-types 3.1
+remote:        Fetching rb-inotify 0.9.10
+remote:        Installing rb-inotify 0.9.10
+remote:        Fetching turbolinks 5.0.1
+remote:        Installing turbolinks 5.0.1
+remote:        Fetching activesupport 5.1.4
+remote:        Installing activesupport 5.1.4
+remote:        The latest bundler is 1.16.0, but you are currently running 1.15.2.
+remote:        To update, run `gem install bundler`
+remote:        Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+remote:        
+remote:        current directory:
+remote:        /tmp/build_c884d783db9d04233edd32d3f6dfda2a/vendor/bundle/ruby/2.3.0/gems/sqlite3-1.3.13/ext/sqlite
+remote:        /tmp/build_c884d783db9d04233edd32d3f6dfda2a/vendor/ruby-2.3.4/bin/ruby -r
+remote:        ./siteconf20171220-224-8vja9f.rb extconf.rb
+remote:        checking for sqlite3.h... no
+remote:        sqlite3.h is missing. Try 'brew install sqlite3',
+remote:        'yum install sqlite-devel' or 'apt-get install libsqlite3-dev'
+remote:        and check your shared library search path (the
+remote:        location where your sqlite3 shared library is located).
+remote:        *** extconf.rb failed ***
+remote:        Could not create Makefile due to some reason, probably lack of necessary
+remote:        libraries and/or headers.  Check the mkmf.log file for more details.  You may
+remote:        need configuration options.
+remote:        
+remote:        Provided configuration options:
+remote:        --with-opt-dir
+remote:        --without-opt-dir
+remote:        --with-opt-include
+remote:        --without-opt-include=${opt-dir}/include
+remote:        --with-opt-lib
+remote:        --without-opt-lib=${opt-dir}/lib
+remote:        --with-make-prog
+remote:        --without-make-prog
+remote:        --srcdir=.
+remote:        --curdir
+remote:        --ruby=/tmp/build_c884d783db9d04233edd32d3f6dfda2a/vendor/ruby-2.3.4/bin/$(RUBY_BASE_NAME)
+remote:        --with-sqlite3-config
+remote:        --without-sqlite3-config
+remote:        --with-pkg-config
+remote:        --without-pkg-config
+remote:        --with-sqlite3-dir
+remote:        --without-sqlite3-dir
+remote:        --with-sqlite3-include
+remote:        --without-sqlite3-include=${sqlite3-dir}/include
+remote:        --with-sqlite3-lib
+remote:        --without-sqlite3-lib=${sqlite3-dir}/lib
+remote:        
+remote:        To see why this extension failed to compile, please check the mkmf.log which can
+remote:        be found here:
+remote:        
+remote:        /tmp/build_c884d783db9d04233edd32d3f6dfda2a/vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0/sqlite3-1.3.13/mkmf.log
+remote:        
+remote:        extconf failed, exit code 1
+remote:        
+remote:        Gem files will remain installed in
+remote:        /tmp/build_c884d783db9d04233edd32d3f6dfda2a/vendor/bundle/ruby/2.3.0/gems/sqlite3-1.3.13
+remote:        for inspection.
+remote:        Results logged to
+remote:        /tmp/build_c884d783db9d04233edd32d3f6dfda2a/vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0/sqlite3-1.3.13/gem_make.out
+remote:        
+remote:        An error occurred while installing sqlite3 (1.3.13), and Bundler cannot
+remote:        continue.
+remote:        Make sure that `gem install sqlite3 -v '1.3.13'` succeeds before bundling.
+remote:        
+remote:        In Gemfile:
+remote:        sqlite3
+remote:  !
+remote:  !     Failed to install gems via Bundler.
+remote:  !     Detected sqlite3 gem which is not supported on Heroku:
+remote:  !     https://devcenter.heroku.com/articles/sqlite3
+remote:  !
+remote:  !     Push rejected, failed to compile Ruby app.
+remote: 
+remote:  !     Push failed
+remote: Verifying deploy....
+remote: 
+remote: !	Push rejected to radiant-brook-89291.
+remote: 
+To https://git.heroku.com/radiant-brook-89291.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/radiant-brook-89291.git'
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ brew install squlite3
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 2 taps (caskroom/cask, caskroom/versions).
+No changes to formulae.
+
+Error: No available formula with the name "squlite3" 
+==> Searching for a previously deleted formula...
+Warning: homebrew/core is shallow clone. To get complete history run:
+  git -C "$(brew --repo homebrew/core)" fetch --unshallow
+
+Error: No previously deleted formula found.
+==> Searching for similarly named formulae...
+==> Searching local taps...
+Error: No similarly named formulae found.
+==> Searching taps...
+==> Searching taps on GitHub...
+Error: No formulae found in taps.
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ sqlite -v
+-bash: sqlite: command not found
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ sqlite3 -v
+sqlite3: Error: unknown option: -v
+Use -help for a list of options.
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ rails -v
+Rails 5.1.4
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ ruby -v
+ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-darwin16]
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ bundle install
+Using rake 12.3.0
+Using concurrent-ruby 1.0.5
+Using i18n 0.9.1
+Using minitest 5.10.3
+Using thread_safe 0.3.6
+Using tzinfo 1.2.4
+Using activesupport 5.1.4
+Using builder 3.2.3
+Using erubi 1.7.0
+Using mini_portile2 2.3.0
+Using nokogiri 1.8.1
+Using rails-dom-testing 2.0.3
+Using crass 1.0.3
+Using loofah 2.1.1
+Using rails-html-sanitizer 1.0.3
+Using actionview 5.1.4
+Using rack 2.0.3
+Using rack-test 0.8.2
+Using actionpack 5.1.4
+Using nio4r 2.1.0
+Using websocket-extensions 0.1.3
+Using websocket-driver 0.6.5
+Using actioncable 5.1.4
+Using globalid 0.4.1
+Using activejob 5.1.4
+Using mini_mime 1.0.0
+Using mail 2.7.0
+Using actionmailer 5.1.4
+Using activemodel 5.1.4
+Using arel 8.0.0
+Using activerecord 5.1.4
+Using public_suffix 3.0.1
+Using addressable 2.5.2
+Using execjs 2.7.0
+Using autoprefixer-rails 7.2.3
+Using bcrypt 3.1.11
+Using bindex 0.5.0
+Using rb-fsevent 0.10.2
+Using ffi 1.9.18
+Using rb-inotify 0.9.10
+Using sass-listen 4.0.0
+Using sass 3.5.4
+Using bootstrap-sass 3.3.7
+Using bundler 1.16.0
+Using byebug 9.1.0
+Using xpath 2.1.0
+Using capybara 2.16.1
+Using childprocess 0.8.0
+Using climate_control 0.2.0
+Using cocaine 0.5.8
+Using coffee-script-source 1.12.2
+Using coffee-script 2.4.1
+Using method_source 0.9.0
+Using thor 0.20.0
+Using railties 5.1.4
+Using coffee-rails 4.2.2
+Using orm_adapter 0.5.0
+Using responders 2.4.0
+Using warden 1.2.7
+Using devise 4.3.0
+Using multi_json 1.12.2
+Using elasticsearch-api 6.0.0
+Using multipart-post 2.0.0
+Using faraday 0.13.1
+Using elasticsearch-transport 6.0.0
+Using elasticsearch 6.0.0
+Using hashie 3.5.6
+Using jbuilder 2.7.0
+Using jquery-rails 4.3.1
+Using ruby_dep 1.5.0
+Using listen 3.1.5
+Using mime-types-data 3.2016.0521
+Using mime-types 3.1
+Using mimemagic 0.3.2
+Using paperclip 5.1.0
+Using puma 3.11.0
+Using sprockets 3.7.1
+Using sprockets-rails 3.2.1
+Using rails 5.1.4
+Using rubyzip 1.2.1
+Using tilt 2.0.8
+Using sass-rails 5.0.7
+Using searchkick 2.4.0
+Using selenium-webdriver 3.8.0
+Using spring 2.0.2
+Using spring-watcher-listen 2.0.1
+Using sqlite3 1.3.13
+Using turbolinks-source 5.0.3
+Using turbolinks 5.0.1
+Using uglifier 4.0.2
+Using web-console 3.5.1
+Bundle complete! 21 Gemfile dependencies, 91 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ bundle install
+Using rake 12.3.0
+Using concurrent-ruby 1.0.5
+Using i18n 0.9.1
+Using minitest 5.10.3
+Using thread_safe 0.3.6
+Using tzinfo 1.2.4
+Using activesupport 5.1.4
+Using builder 3.2.3
+Using erubi 1.7.0
+Using mini_portile2 2.3.0
+Using nokogiri 1.8.1
+Using rails-dom-testing 2.0.3
+Using crass 1.0.3
+Using loofah 2.1.1
+Using rails-html-sanitizer 1.0.3
+Using actionview 5.1.4
+Using rack 2.0.3
+Using rack-test 0.8.2
+Using actionpack 5.1.4
+Using nio4r 2.1.0
+Using websocket-extensions 0.1.3
+Using websocket-driver 0.6.5
+Using actioncable 5.1.4
+Using globalid 0.4.1
+Using activejob 5.1.4
+Using mini_mime 1.0.0
+Using mail 2.7.0
+Using actionmailer 5.1.4
+Using activemodel 5.1.4
+Using arel 8.0.0
+Using activerecord 5.1.4
+Using public_suffix 3.0.1
+Using addressable 2.5.2
+Using execjs 2.7.0
+Using autoprefixer-rails 7.2.3
+Using bcrypt 3.1.11
+Using bindex 0.5.0
+Using rb-fsevent 0.10.2
+Using ffi 1.9.18
+Using rb-inotify 0.9.10
+Using sass-listen 4.0.0
+Using sass 3.5.4
+Using bootstrap-sass 3.3.7
+Using bundler 1.16.0
+Using byebug 9.1.0
+Using xpath 2.1.0
+Using capybara 2.16.1
+Using childprocess 0.8.0
+Using climate_control 0.2.0
+Using cocaine 0.5.8
+Using coffee-script-source 1.12.2
+Using coffee-script 2.4.1
+Using method_source 0.9.0
+Using thor 0.20.0
+Using railties 5.1.4
+Using coffee-rails 4.2.2
+Using orm_adapter 0.5.0
+Using responders 2.4.0
+Using warden 1.2.7
+Using devise 4.3.0
+Using multi_json 1.12.2
+Using elasticsearch-api 6.0.0
+Using multipart-post 2.0.0
+Using faraday 0.13.1
+Using elasticsearch-transport 6.0.0
+Using elasticsearch 6.0.0
+Using hashie 3.5.6
+Using jbuilder 2.7.0
+Using jquery-rails 4.3.1
+Using ruby_dep 1.5.0
+Using listen 3.1.5
+Using mime-types-data 3.2016.0521
+Using mime-types 3.1
+Using mimemagic 0.3.2
+Using paperclip 5.1.0
+Using puma 3.11.0
+Using sprockets 3.7.1
+Using sprockets-rails 3.2.1
+Using rails 5.1.4
+Using rubyzip 1.2.1
+Using tilt 2.0.8
+Using sass-rails 5.0.7
+Using searchkick 2.4.0
+Using selenium-webdriver 3.8.0
+Using spring 2.0.2
+Using spring-watcher-listen 2.0.1
+Using sqlite3 1.3.13
+Using turbolinks-source 5.0.3
+Using turbolinks 5.0.1
+Using uglifier 4.0.2
+Using web-console 3.5.1
+Bundle complete! 21 Gemfile dependencies, 91 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ bundle install
+Using rake 12.3.0
+Using concurrent-ruby 1.0.5
+Using i18n 0.9.1
+Using minitest 5.10.3
+Using thread_safe 0.3.6
+Using tzinfo 1.2.4
+Using activesupport 5.1.4
+Using builder 3.2.3
+Using erubi 1.7.0
+Using mini_portile2 2.3.0
+Using nokogiri 1.8.1
+Using rails-dom-testing 2.0.3
+Using crass 1.0.3
+Using loofah 2.1.1
+Using rails-html-sanitizer 1.0.3
+Using actionview 5.1.4
+Using rack 2.0.3
+Using rack-test 0.8.2
+Using actionpack 5.1.4
+Using nio4r 2.1.0
+Using websocket-extensions 0.1.3
+Using websocket-driver 0.6.5
+Using actioncable 5.1.4
+Using globalid 0.4.1
+Using activejob 5.1.4
+Using mini_mime 1.0.0
+Using mail 2.7.0
+Using actionmailer 5.1.4
+Using activemodel 5.1.4
+Using arel 8.0.0
+Using activerecord 5.1.4
+Using public_suffix 3.0.1
+Using addressable 2.5.2
+Using execjs 2.7.0
+Using autoprefixer-rails 7.2.3
+Using bcrypt 3.1.11
+Using bindex 0.5.0
+Using rb-fsevent 0.10.2
+Using ffi 1.9.18
+Using rb-inotify 0.9.10
+Using sass-listen 4.0.0
+Using sass 3.5.4
+Using bootstrap-sass 3.3.7
+Using bundler 1.16.0
+Using byebug 9.1.0
+Using xpath 2.1.0
+Using capybara 2.16.1
+Using childprocess 0.8.0
+Using climate_control 0.2.0
+Using cocaine 0.5.8
+Using coffee-script-source 1.12.2
+Using coffee-script 2.4.1
+Using method_source 0.9.0
+Using thor 0.20.0
+Using railties 5.1.4
+Using coffee-rails 4.2.2
+Using orm_adapter 0.5.0
+Using responders 2.4.0
+Using warden 1.2.7
+Using devise 4.3.0
+Using multi_json 1.12.2
+Using elasticsearch-api 6.0.0
+Using multipart-post 2.0.0
+Using faraday 0.13.1
+Using elasticsearch-transport 6.0.0
+Using elasticsearch 6.0.0
+Using hashie 3.5.6
+Using jbuilder 2.7.0
+Using jquery-rails 4.3.1
+Using ruby_dep 1.5.0
+Using listen 3.1.5
+Using mime-types-data 3.2016.0521
+Using mime-types 3.1
+Using mimemagic 0.3.2
+Using paperclip 5.1.0
+Using puma 3.11.0
+Using sprockets 3.7.1
+Using sprockets-rails 3.2.1
+Using rails 5.1.4
+Using rubyzip 1.2.1
+Using tilt 2.0.8
+Using sass-rails 5.0.7
+Using searchkick 2.4.0
+Using selenium-webdriver 3.8.0
+Using spring 2.0.2
+Using spring-watcher-listen 2.0.1
+Using sqlite3 1.3.13
+Using turbolinks-source 5.0.3
+Using turbolinks 5.0.1
+Using uglifier 4.0.2
+Using web-console 3.5.1
+Bundle complete! 21 Gemfile dependencies, 91 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ bundle info pg
+Could not find gem 'pg'.
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ bundle install
+Using rake 12.3.0
+Using concurrent-ruby 1.0.5
+Using i18n 0.9.1
+Using minitest 5.10.3
+Using thread_safe 0.3.6
+Using tzinfo 1.2.4
+Using activesupport 5.1.4
+Using builder 3.2.3
+Using erubi 1.7.0
+Using mini_portile2 2.3.0
+Using nokogiri 1.8.1
+Using rails-dom-testing 2.0.3
+Using crass 1.0.3
+Using loofah 2.1.1
+Using rails-html-sanitizer 1.0.3
+Using actionview 5.1.4
+Using rack 2.0.3
+Using rack-test 0.8.2
+Using actionpack 5.1.4
+Using nio4r 2.1.0
+Using websocket-extensions 0.1.3
+Using websocket-driver 0.6.5
+Using actioncable 5.1.4
+Using globalid 0.4.1
+Using activejob 5.1.4
+Using mini_mime 1.0.0
+Using mail 2.7.0
+Using actionmailer 5.1.4
+Using activemodel 5.1.4
+Using arel 8.0.0
+Using activerecord 5.1.4
+Using public_suffix 3.0.1
+Using addressable 2.5.2
+Using execjs 2.7.0
+Using autoprefixer-rails 7.2.3
+Using bcrypt 3.1.11
+Using bindex 0.5.0
+Using rb-fsevent 0.10.2
+Using ffi 1.9.18
+Using rb-inotify 0.9.10
+Using sass-listen 4.0.0
+Using sass 3.5.4
+Using bootstrap-sass 3.3.7
+Using bundler 1.16.0
+Using byebug 9.1.0
+Using xpath 2.1.0
+Using capybara 2.16.1
+Using childprocess 0.8.0
+Using climate_control 0.2.0
+Using cocaine 0.5.8
+Using coffee-script-source 1.12.2
+Using coffee-script 2.4.1
+Using method_source 0.9.0
+Using thor 0.20.0
+Using railties 5.1.4
+Using coffee-rails 4.2.2
+Using orm_adapter 0.5.0
+Using responders 2.4.0
+Using warden 1.2.7
+Using devise 4.3.0
+Using multi_json 1.12.2
+Using elasticsearch-api 6.0.0
+Using multipart-post 2.0.0
+Using faraday 0.13.1
+Using elasticsearch-transport 6.0.0
+Using elasticsearch 6.0.0
+Using hashie 3.5.6
+Using jbuilder 2.7.0
+Using jquery-rails 4.3.1
+Using ruby_dep 1.5.0
+Using listen 3.1.5
+Using mime-types-data 3.2016.0521
+Using mime-types 3.1
+Using mimemagic 0.3.2
+Using paperclip 5.1.0
+Using puma 3.11.0
+Using sprockets 3.7.1
+Using sprockets-rails 3.2.1
+Using rails 5.1.4
+Using rubyzip 1.2.1
+Using tilt 2.0.8
+Using sass-rails 5.0.7
+Using searchkick 2.4.0
+Using selenium-webdriver 3.8.0
+Using spring 2.0.2
+Using spring-watcher-listen 2.0.1
+Using sqlite3 1.3.13
+Using turbolinks-source 5.0.3
+Using turbolinks 5.0.1
+Using uglifier 4.0.2
+Using web-console 3.5.1
+Bundle complete! 21 Gemfile dependencies, 91 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ bundle info pg
+Could not find gem 'pg'.
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ bundle install
+The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
+Fetching gem metadata from https://rubygems.org/.........
+Fetching gem metadata from https://rubygems.org/.
+Resolving dependencies...
+Using rake 12.3.0
+Using concurrent-ruby 1.0.5
+Using i18n 0.9.1
+Using minitest 5.10.3
+Using thread_safe 0.3.6
+Using tzinfo 1.2.4
+Using activesupport 5.1.4
+Using builder 3.2.3
+Using erubi 1.7.0
+Using mini_portile2 2.3.0
+Using nokogiri 1.8.1
+Using rails-dom-testing 2.0.3
+Using crass 1.0.3
+Using loofah 2.1.1
+Using rails-html-sanitizer 1.0.3
+Using actionview 5.1.4
+Using rack 2.0.3
+Using rack-test 0.8.2
+Using actionpack 5.1.4
+Using nio4r 2.1.0
+Using websocket-extensions 0.1.3
+Using websocket-driver 0.6.5
+Using actioncable 5.1.4
+Using globalid 0.4.1
+Using activejob 5.1.4
+Using mini_mime 1.0.0
+Using mail 2.7.0
+Using actionmailer 5.1.4
+Using activemodel 5.1.4
+Using arel 8.0.0
+Using activerecord 5.1.4
+Using public_suffix 3.0.1
+Using addressable 2.5.2
+Using execjs 2.7.0
+Using autoprefixer-rails 7.2.3
+Using bcrypt 3.1.11
+Using bindex 0.5.0
+Using rb-fsevent 0.10.2
+Using ffi 1.9.18
+Using rb-inotify 0.9.10
+Using sass-listen 4.0.0
+Using sass 3.5.4
+Using bootstrap-sass 3.3.7
+Using bundler 1.16.0
+Using byebug 9.1.0
+Using xpath 2.1.0
+Using capybara 2.16.1
+Using childprocess 0.8.0
+Using climate_control 0.2.0
+Using cocaine 0.5.8
+Using coffee-script-source 1.12.2
+Using coffee-script 2.4.1
+Using method_source 0.9.0
+Using thor 0.20.0
+Using railties 5.1.4
+Using coffee-rails 4.2.2
+Using orm_adapter 0.5.0
+Using responders 2.4.0
+Using warden 1.2.7
+Using devise 4.3.0
+Using multi_json 1.12.2
+Using elasticsearch-api 6.0.0
+Using multipart-post 2.0.0
+Using faraday 0.13.1
+Using elasticsearch-transport 6.0.0
+Using elasticsearch 6.0.0
+Using hashie 3.5.6
+Using jbuilder 2.7.0
+Using jquery-rails 4.3.1
+Using ruby_dep 1.5.0
+Using listen 3.1.5
+Using mime-types-data 3.2016.0521
+Using mime-types 3.1
+Using mimemagic 0.3.2
+Using paperclip 5.1.0
+Using pg 0.21.0
+Using puma 3.11.0
+Using sprockets 3.7.1
+Using sprockets-rails 3.2.1
+Using rails 5.1.4
+Using rubyzip 1.2.1
+Using tilt 2.0.8
+Using sass-rails 5.0.7
+Using searchkick 2.4.0
+Using selenium-webdriver 3.8.0
+Using spring 2.0.2
+Using spring-watcher-listen 2.0.1
+Using turbolinks-source 5.0.3
+Using turbolinks 5.0.1
+Using uglifier 4.0.2
+Using web-console 3.5.1
+Bundle complete! 21 Gemfile dependencies, 91 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ bundle info pg
+  * pg (0.21.0)
+	Summary: Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]
+	Homepage: https://bitbucket.org/ged/ruby-pg
+	Path: /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/pg-0.21.0
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ git push heroku master
+Counting objects: 450, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (425/425), done.
+Writing objects: 100% (450/450), 626.34 KiB | 8.24 MiB/s, done.
+Total 450 (delta 210), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote:  !     Warning: Multiple default buildpacks reported the ability to handle this app. The first buildpack in the list below will be used.
+remote: 			Detected buildpacks: Ruby,Node.js
+remote: 			See https://devcenter.heroku.com/articles/buildpacks#buildpack-detect-order
+remote: -----> Ruby app detected
+remote: -----> Compiling Ruby/Rails
+remote: -----> Using Ruby version: ruby-2.3.4
+remote: -----> Installing dependencies using bundler 1.15.2
+remote:        Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment
+remote:        Warning: the running version of Bundler (1.15.2) is older than the version that created the lockfile (1.16.0). We suggest you upgrade to the latest version of Bundler by running `gem install bundler`.
+remote:        Fetching gem metadata from https://rubygems.org/........
+remote:        Fetching version metadata from https://rubygems.org/..
+remote:        Fetching dependency metadata from https://rubygems.org/.
+remote:        Fetching rake 12.3.0
+remote:        Fetching concurrent-ruby 1.0.5
+remote:        Fetching minitest 5.10.3
+remote:        Installing rake 12.3.0
+remote:        Installing minitest 5.10.3
+remote:        Installing concurrent-ruby 1.0.5
+remote:        Fetching thread_safe 0.3.6
+remote:        Installing thread_safe 0.3.6
+remote:        Fetching builder 3.2.3
+remote:        Installing builder 3.2.3
+remote:        Fetching erubi 1.7.0
+remote:        Fetching mini_portile2 2.3.0
+remote:        Installing erubi 1.7.0
+remote:        Installing mini_portile2 2.3.0
+remote:        Fetching crass 1.0.3
+remote:        Fetching rack 2.0.3
+remote:        Fetching nio4r 2.1.0
+remote:        Installing crass 1.0.3
+remote:        Installing nio4r 2.1.0 with native extensions
+remote:        Installing rack 2.0.3
+remote:        Fetching websocket-extensions 0.1.3
+remote:        Installing websocket-extensions 0.1.3
+remote:        Fetching mini_mime 1.0.0
+remote:        Installing mini_mime 1.0.0
+remote:        Fetching arel 8.0.0
+remote:        Installing arel 8.0.0
+remote:        Fetching execjs 2.7.0
+remote:        Fetching bcrypt 3.1.11
+remote:        Installing execjs 2.7.0
+remote:        Installing bcrypt 3.1.11 with native extensions
+remote:        Fetching rb-fsevent 0.10.2
+remote:        Installing rb-fsevent 0.10.2
+remote:        Fetching ffi 1.9.18
+remote:        Installing ffi 1.9.18 with native extensions
+remote:        Using bundler 1.15.2
+remote:        Fetching climate_control 0.2.0
+remote:        Installing climate_control 0.2.0
+remote:        Fetching coffee-script-source 1.12.2
+remote:        Installing coffee-script-source 1.12.2
+remote:        Fetching method_source 0.9.0
+remote:        Installing method_source 0.9.0
+remote:        Fetching thor 0.20.0
+remote:        Installing thor 0.20.0
+remote:        Fetching orm_adapter 0.5.0
+remote:        Installing orm_adapter 0.5.0
+remote:        Fetching multi_json 1.12.2
+remote:        Installing multi_json 1.12.2
+remote:        Fetching multipart-post 2.0.0
+remote:        Installing multipart-post 2.0.0
+remote:        Fetching hashie 3.5.6
+remote:        Installing hashie 3.5.6
+remote:        Fetching mime-types-data 3.2016.0521
+remote:        Installing mime-types-data 3.2016.0521
+remote:        Fetching mimemagic 0.3.2
+remote:        Installing mimemagic 0.3.2
+remote:        Fetching puma 3.11.0
+remote:        Installing puma 3.11.0 with native extensions
+remote:        Fetching tilt 2.0.8
+remote:        Installing tilt 2.0.8
+remote:        Fetching sqlite3 1.3.13
+remote:        Installing sqlite3 1.3.13 with native extensions
+remote:        Fetching turbolinks-source 5.0.3
+remote:        Installing turbolinks-source 5.0.3
+remote:        Fetching i18n 0.9.1
+remote:        Installing i18n 0.9.1
+remote:        Fetching tzinfo 1.2.4
+remote:        Installing tzinfo 1.2.4
+remote:        Fetching nokogiri 1.8.1
+remote:        Installing nokogiri 1.8.1 with native extensions
+remote:        Fetching websocket-driver 0.6.5
+remote:        Installing websocket-driver 0.6.5 with native extensions
+remote:        Fetching mail 2.7.0
+remote:        Installing mail 2.7.0
+remote:        Fetching rack-test 0.8.2
+remote:        Installing rack-test 0.8.2
+remote:        Fetching warden 1.2.7
+remote:        Installing warden 1.2.7
+remote:        Fetching sprockets 3.7.1
+remote:        Installing sprockets 3.7.1
+remote:        Fetching autoprefixer-rails 7.2.3
+remote:        Installing autoprefixer-rails 7.2.3
+remote:        Fetching uglifier 4.0.2
+remote:        Installing uglifier 4.0.2
+remote:        Fetching cocaine 0.5.8
+remote:        Installing cocaine 0.5.8
+remote:        Fetching coffee-script 2.4.1
+remote:        Installing coffee-script 2.4.1
+remote:        Fetching elasticsearch-api 6.0.0
+remote:        Installing elasticsearch-api 6.0.0
+remote:        Fetching faraday 0.13.1
+remote:        Installing faraday 0.13.1
+remote:        Fetching mime-types 3.1
+remote:        Installing mime-types 3.1
+remote:        Fetching rb-inotify 0.9.10
+remote:        Installing rb-inotify 0.9.10
+remote:        Fetching turbolinks 5.0.1
+remote:        Installing turbolinks 5.0.1
+remote:        Fetching activesupport 5.1.4
+remote:        Installing activesupport 5.1.4
+remote:        The latest bundler is 1.16.0, but you are currently running 1.15.2.
+remote:        To update, run `gem install bundler`
+remote:        Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+remote:        current directory:
+remote:        /tmp/build_7904422b3011acd831887d9995911ede/vendor/bundle/ruby/2.3.0/gems/sqlite3-1.3.13/ext/sqlite
+remote:        /tmp/build_7904422b3011acd831887d9995911ede/vendor/ruby-2.3.4/bin/ruby -r
+remote:        ./siteconf20171220-225-12qrjgi.rb extconf.rb
+remote:        checking for sqlite3.h... no
+remote:        sqlite3.h is missing. Try 'brew install sqlite3',
+remote:        'yum install sqlite-devel' or 'apt-get install libsqlite3-dev'
+remote:        and check your shared library search path (the
+remote:        location where your sqlite3 shared library is located).
+remote:        *** extconf.rb failed ***
+remote:        Could not create Makefile due to some reason, probably lack of necessary
+remote:        libraries and/or headers.  Check the mkmf.log file for more details.  You may
+remote:        need configuration options.
+remote:        Provided configuration options:
+remote:        --with-opt-dir
+remote:        --without-opt-dir
+remote:        --with-opt-include
+remote:        --without-opt-include=${opt-dir}/include
+remote:        --with-opt-lib
+remote:        --without-opt-lib=${opt-dir}/lib
+remote:        --with-make-prog
+remote:        --without-make-prog
+remote:        --srcdir=.
+remote:        --curdir
+remote:        --ruby=/tmp/build_7904422b3011acd831887d9995911ede/vendor/ruby-2.3.4/bin/$(RUBY_BASE_NAME)
+remote:        --with-sqlite3-config
+remote:        --without-sqlite3-config
+remote:        --with-pkg-config
+remote:        --without-pkg-config
+remote:        --with-sqlite3-dir
+remote:        --without-sqlite3-dir
+remote:        --with-sqlite3-include
+remote:        --without-sqlite3-include=${sqlite3-dir}/include
+remote:        --with-sqlite3-lib
+remote:        --without-sqlite3-lib=${sqlite3-dir}/lib
+remote:        To see why this extension failed to compile, please check the mkmf.log which can
+remote:        be found here:
+remote:        /tmp/build_7904422b3011acd831887d9995911ede/vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0/sqlite3-1.3.13/mkmf.log
+remote:        extconf failed, exit code 1
+remote:        Gem files will remain installed in
+remote:        /tmp/build_7904422b3011acd831887d9995911ede/vendor/bundle/ruby/2.3.0/gems/sqlite3-1.3.13
+remote:        for inspection.
+remote:        Results logged to
+remote:        /tmp/build_7904422b3011acd831887d9995911ede/vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0/sqlite3-1.3.13/gem_make.out
+remote:        An error occurred while installing sqlite3 (1.3.13), and Bundler cannot
+remote:        continue.
+remote:        Make sure that `gem install sqlite3 -v '1.3.13'` succeeds before bundling.
+remote:        In Gemfile:
+remote:        sqlite3
+remote:        Bundler Output: Warning: the running version of Bundler (1.15.2) is older than the version that created the lockfile (1.16.0). We suggest you upgrade to the latest version of Bundler by running `gem install bundler`.
+remote:        Fetching gem metadata from https://rubygems.org/........
+remote:        Fetching version metadata from https://rubygems.org/..
+remote:        Fetching dependency metadata from https://rubygems.org/.
+remote:        Fetching rake 12.3.0
+remote:        Fetching concurrent-ruby 1.0.5
+remote:        Fetching minitest 5.10.3
+remote:        Installing rake 12.3.0
+remote:        Installing minitest 5.10.3
+remote:        Installing concurrent-ruby 1.0.5
+remote:        Fetching thread_safe 0.3.6
+remote:        Installing thread_safe 0.3.6
+remote:        Fetching builder 3.2.3
+remote:        Installing builder 3.2.3
+remote:        Fetching erubi 1.7.0
+remote:        Fetching mini_portile2 2.3.0
+remote:        Installing erubi 1.7.0
+remote:        Installing mini_portile2 2.3.0
+remote:        Fetching crass 1.0.3
+remote:        Fetching rack 2.0.3
+remote:        Fetching nio4r 2.1.0
+remote:        Installing crass 1.0.3
+remote:        Installing nio4r 2.1.0 with native extensions
+remote:        Installing rack 2.0.3
+remote:        Fetching websocket-extensions 0.1.3
+remote:        Installing websocket-extensions 0.1.3
+remote:        Fetching mini_mime 1.0.0
+remote:        Installing mini_mime 1.0.0
+remote:        Fetching arel 8.0.0
+remote:        Installing arel 8.0.0
+remote:        Fetching execjs 2.7.0
+remote:        Fetching bcrypt 3.1.11
+remote:        Installing execjs 2.7.0
+remote:        Installing bcrypt 3.1.11 with native extensions
+remote:        Fetching rb-fsevent 0.10.2
+remote:        Installing rb-fsevent 0.10.2
+remote:        Fetching ffi 1.9.18
+remote:        Installing ffi 1.9.18 with native extensions
+remote:        Using bundler 1.15.2
+remote:        Fetching climate_control 0.2.0
+remote:        Installing climate_control 0.2.0
+remote:        Fetching coffee-script-source 1.12.2
+remote:        Installing coffee-script-source 1.12.2
+remote:        Fetching method_source 0.9.0
+remote:        Installing method_source 0.9.0
+remote:        Fetching thor 0.20.0
+remote:        Installing thor 0.20.0
+remote:        Fetching orm_adapter 0.5.0
+remote:        Installing orm_adapter 0.5.0
+remote:        Fetching multi_json 1.12.2
+remote:        Installing multi_json 1.12.2
+remote:        Fetching multipart-post 2.0.0
+remote:        Installing multipart-post 2.0.0
+remote:        Fetching hashie 3.5.6
+remote:        Installing hashie 3.5.6
+remote:        Fetching mime-types-data 3.2016.0521
+remote:        Installing mime-types-data 3.2016.0521
+remote:        Fetching mimemagic 0.3.2
+remote:        Installing mimemagic 0.3.2
+remote:        Fetching puma 3.11.0
+remote:        Installing puma 3.11.0 with native extensions
+remote:        Fetching tilt 2.0.8
+remote:        Installing tilt 2.0.8
+remote:        Fetching sqlite3 1.3.13
+remote:        Installing sqlite3 1.3.13 with native extensions
+remote:        Fetching turbolinks-source 5.0.3
+remote:        Installing turbolinks-source 5.0.3
+remote:        Fetching i18n 0.9.1
+remote:        Installing i18n 0.9.1
+remote:        Fetching tzinfo 1.2.4
+remote:        Installing tzinfo 1.2.4
+remote:        Fetching nokogiri 1.8.1
+remote:        Installing nokogiri 1.8.1 with native extensions
+remote:        Fetching websocket-driver 0.6.5
+remote:        Installing websocket-driver 0.6.5 with native extensions
+remote:        Fetching mail 2.7.0
+remote:        Installing mail 2.7.0
+remote:        Fetching rack-test 0.8.2
+remote:        Installing rack-test 0.8.2
+remote:        Fetching warden 1.2.7
+remote:        Installing warden 1.2.7
+remote:        Fetching sprockets 3.7.1
+remote:        Installing sprockets 3.7.1
+remote:        Fetching autoprefixer-rails 7.2.3
+remote:        Installing autoprefixer-rails 7.2.3
+remote:        Fetching uglifier 4.0.2
+remote:        Installing uglifier 4.0.2
+remote:        Fetching cocaine 0.5.8
+remote:        Installing cocaine 0.5.8
+remote:        Fetching coffee-script 2.4.1
+remote:        Installing coffee-script 2.4.1
+remote:        Fetching elasticsearch-api 6.0.0
+remote:        Installing elasticsearch-api 6.0.0
+remote:        Fetching faraday 0.13.1
+remote:        Installing faraday 0.13.1
+remote:        Fetching mime-types 3.1
+remote:        Installing mime-types 3.1
+remote:        Fetching rb-inotify 0.9.10
+remote:        Installing rb-inotify 0.9.10
+remote:        Fetching turbolinks 5.0.1
+remote:        Installing turbolinks 5.0.1
+remote:        Fetching activesupport 5.1.4
+remote:        Installing activesupport 5.1.4
+remote:        The latest bundler is 1.16.0, but you are currently running 1.15.2.
+remote:        To update, run `gem install bundler`
+remote:        Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+remote:        
+remote:        current directory:
+remote:        /tmp/build_7904422b3011acd831887d9995911ede/vendor/bundle/ruby/2.3.0/gems/sqlite3-1.3.13/ext/sqlite
+remote:        /tmp/build_7904422b3011acd831887d9995911ede/vendor/ruby-2.3.4/bin/ruby -r
+remote:        ./siteconf20171220-225-12qrjgi.rb extconf.rb
+remote:        checking for sqlite3.h... no
+remote:        sqlite3.h is missing. Try 'brew install sqlite3',
+remote:        'yum install sqlite-devel' or 'apt-get install libsqlite3-dev'
+remote:        and check your shared library search path (the
+remote:        location where your sqlite3 shared library is located).
+remote:        *** extconf.rb failed ***
+remote:        Could not create Makefile due to some reason, probably lack of necessary
+remote:        libraries and/or headers.  Check the mkmf.log file for more details.  You may
+remote:        need configuration options.
+remote:        
+remote:        Provided configuration options:
+remote:        --with-opt-dir
+remote:        --without-opt-dir
+remote:        --with-opt-include
+remote:        --without-opt-include=${opt-dir}/include
+remote:        --with-opt-lib
+remote:        --without-opt-lib=${opt-dir}/lib
+remote:        --with-make-prog
+remote:        --without-make-prog
+remote:        --srcdir=.
+remote:        --curdir
+remote:        --ruby=/tmp/build_7904422b3011acd831887d9995911ede/vendor/ruby-2.3.4/bin/$(RUBY_BASE_NAME)
+remote:        --with-sqlite3-config
+remote:        --without-sqlite3-config
+remote:        --with-pkg-config
+remote:        --without-pkg-config
+remote:        --with-sqlite3-dir
+remote:        --without-sqlite3-dir
+remote:        --with-sqlite3-include
+remote:        --without-sqlite3-include=${sqlite3-dir}/include
+remote:        --with-sqlite3-lib
+remote:        --without-sqlite3-lib=${sqlite3-dir}/lib
+remote:        
+remote:        To see why this extension failed to compile, please check the mkmf.log which can
+remote:        be found here:
+remote:        
+remote:        /tmp/build_7904422b3011acd831887d9995911ede/vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0/sqlite3-1.3.13/mkmf.log
+remote:        
+remote:        extconf failed, exit code 1
+remote:        
+remote:        Gem files will remain installed in
+remote:        /tmp/build_7904422b3011acd831887d9995911ede/vendor/bundle/ruby/2.3.0/gems/sqlite3-1.3.13
+remote:        for inspection.
+remote:        Results logged to
+remote:        /tmp/build_7904422b3011acd831887d9995911ede/vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0/sqlite3-1.3.13/gem_make.out
+remote:        
+remote:        An error occurred while installing sqlite3 (1.3.13), and Bundler cannot
+remote:        continue.
+remote:        Make sure that `gem install sqlite3 -v '1.3.13'` succeeds before bundling.
+remote:        
+remote:        In Gemfile:
+remote:        sqlite3
+remote:  !
+remote:  !     Failed to install gems via Bundler.
+remote:  !     Detected sqlite3 gem which is not supported on Heroku:
+remote:  !     https://devcenter.heroku.com/articles/sqlite3
+remote:  !
+remote:  !     Push rejected, failed to compile Ruby app.
+remote: 
+remote:  !     Push failed
+remote: Verifying deploy...
+remote: 
+remote: !	Push rejected to radiant-brook-89291.
+remote: 
+To https://git.heroku.com/radiant-brook-89291.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/radiant-brook-89291.git'
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ rails db create
+config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+
+  * development - set it to false
+  * test - set it to false (unless you use a tool that preloads your test environment)
+  * production - set it to true
+
+/Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/devise-4.3.0/lib/devise/rails/routes.rb:498:in `raise_no_secret_key': Devise.secret_key was not set. Please add the following to your Devise initializer: (RuntimeError)
+
+  config.secret_key = '0bf30b5102b51c29b5f4cdfa54a604c2c1ab33a7dd8bcb9fea991f2830f756e38c6b58c22b94a675a8c9b23d0ca4e55f1e706f12d6422bbe149d6b4cbf7cd8cd'
+
+Please ensure you restarted your application after installing Devise or setting the key.
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/devise-4.3.0/lib/devise/rails/routes.rb:226:in `devise_for'
+	from /Users/andrealee/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp/config/routes.rb:3:in `block in <top (required)>'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:426:in `instance_exec'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:426:in `eval_block'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:408:in `draw'
+	from /Users/andrealee/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp/config/routes.rb:1:in `<top (required)>'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `load'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `block in load'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:258:in `load_dependency'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `load'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `block in load_paths'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `each'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `load_paths'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:18:in `reload!'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:41:in `block in updater'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activesupport-5.1.4/lib/active_support/file_update_checker.rb:81:in `execute'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:42:in `updater'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:31:in `execute_if_updated'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/application/finisher.rb:128:in `block in <module:Finisher>'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/initializable.rb:30:in `instance_exec'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/initializable.rb:30:in `run'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/initializable.rb:59:in `block in run_initializers'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/2.4.0/tsort.rb:228:in `block in tsort_each'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/2.4.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/2.4.0/tsort.rb:431:in `each_strongly_connected_component_from'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/2.4.0/tsort.rb:349:in `block in each_strongly_connected_component'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/2.4.0/tsort.rb:347:in `each'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/2.4.0/tsort.rb:347:in `call'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/2.4.0/tsort.rb:347:in `each_strongly_connected_component'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/2.4.0/tsort.rb:226:in `tsort_each'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/2.4.0/tsort.rb:205:in `tsort_each'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/initializable.rb:58:in `run_initializers'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/application.rb:353:in `initialize!'
+	from /Users/andrealee/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp/config/environment.rb:5:in `<top (required)>'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:292:in `require'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:292:in `block in require'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:258:in `load_dependency'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:292:in `require'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/application.rb:329:in `require_environment!'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/command/actions.rb:16:in `require_application_and_environment!'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/commands/dbconsole/dbconsole_command.rb:154:in `perform'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/thor-0.20.0/lib/thor/command.rb:27:in `run'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/thor-0.20.0/lib/thor/invocation.rb:126:in `invoke_command'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/thor-0.20.0/lib/thor.rb:387:in `dispatch'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/command/base.rb:63:in `perform'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/command.rb:44:in `invoke'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/commands.rb:16:in `<top (required)>'
+	from /Users/andrealee/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp/bin/rails:9:in `require'
+	from /Users/andrealee/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp/bin/rails:9:in `<top (required)>'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/spring-2.0.2/lib/spring/client/rails.rb:28:in `load'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/spring-2.0.2/lib/spring/client/rails.rb:28:in `call'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/spring-2.0.2/lib/spring/client/command.rb:7:in `call'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/spring-2.0.2/lib/spring/client.rb:30:in `run'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/spring-2.0.2/bin/spring:49:in `<top (required)>'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/spring-2.0.2/lib/spring/binstub.rb:31:in `load'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/spring-2.0.2/lib/spring/binstub.rb:31:in `<top (required)>'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/2.4.0/rubygems/core_ext/kernel_require.rb:68:in `require'
+	from /Users/andrealee/.rbenv/versions/2.4.1/lib/ruby/2.4.0/rubygems/core_ext/kernel_require.rb:68:in `require'
+	from /Users/andrealee/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp/bin/spring:15:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ rails db:create
+Created database 'my_database_development'
+Database 'my_database_development' already exists
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ rails db:migrate
+== 20171217223133 CreatePens: migrating =======================================
+-- create_table(:pens)
+   -> 0.0321s
+== 20171217223133 CreatePens: migrated (0.0322s) ==============================
+
+== 20171217230307 DeviseCreateUsers: migrating ================================
+-- create_table(:users)
+   -> 0.0205s
+-- add_index(:users, :email, {:unique=>true})
+   -> 0.0097s
+-- add_index(:users, :reset_password_token, {:unique=>true})
+   -> 0.0028s
+== 20171217230307 DeviseCreateUsers: migrated (0.0333s) =======================
+
+== 20171217230624 AddUserIdToPens: migrating ==================================
+-- add_column(:pens, :user_id, :int)
+   -> 0.0245s
+== 20171217230624 AddUserIdToPens: migrated (0.0246s) =========================
+
+== 20171218010038 AddRatingToPens: migrating ==================================
+-- add_column(:pens, :rating, :integer)
+   -> 0.0006s
+== 20171218010038 AddRatingToPens: migrated (0.0007s) =========================
+
+== 20171218011405 AddAttachmentImageToPens: migrating =========================
+-- change_table(:pens)
+   -> 0.0018s
+== 20171218011405 AddAttachmentImageToPens: migrated (0.0019s) ================
+
+== 20171218123333 CreateReviews: migrating ====================================
+-- create_table(:reviews)
+   -> 0.0226s
+== 20171218123333 CreateReviews: migrated (0.0227s) ===========================
+
+== 20171218123748 AddUserIdToReviews: migrating ===============================
+-- add_column(:reviews, :user_id, :integer)
+   -> 0.0008s
+== 20171218123748 AddUserIdToReviews: migrated (0.0009s) ======================
+
+== 20171218130010 AddMovieIdToReviews: migrating ==============================
+-- add_column(:reviews, :movie_id, :integer)
+   -> 0.0008s
+== 20171218130010 AddMovieIdToReviews: migrated (0.0009s) =====================
+
+== 20171218161401 ChangeColumnName: migrating =================================
+-- rename_column(:reviews, :movie_id, :pen_id)
+   -> 0.0279s
+== 20171218161401 ChangeColumnName: migrated (0.0280s) ========================
+
+== 20171218213737 RemoveRatingFromPens: migrating =============================
+-- remove_column(:pens, :rating, :integer)
+   -> 0.0263s
+== 20171218213737 RemoveRatingFromPens: migrated (0.0264s) ====================
+
+== 20171218213909 RemoveImageUrlFromPens: migrating ===========================
+-- remove_column(:pens, :image_url, :string)
+   -> 0.0007s
+== 20171218213909 RemoveImageUrlFromPens: migrated (0.0007s) ==================
+
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ git add .
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[+]
+$ git commit -m "migrated from sqlite3, to postgres because i'm an idiot.  changed gemfile and database.yml"
+[master 999dc76] migrated from sqlite3, to postgres because i'm an idiot.  changed gemfile and database.yml
+ 4 files changed, 12 insertions(+), 10 deletions(-)
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master
+$ git push origin master
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 984 bytes | 984.00 KiB/s, done.
+Total 8 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), completed with 6 local objects.
+To https://github.com/alee092017/InkAppAgain.git
+   3311136..999dc76  master -> master
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master
+$ git commit reset
+error: pathspec 'reset' did not match any file(s) known to git.
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master
+$ git reset HEAD~
+Unstaged changes after reset:
+M	Gemfile
+M	Gemfile.lock
+M	config/database.yml
+M	db/schema.rb
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ git remote -v
+heroku	https://git.heroku.com/radiant-brook-89291.git (fetch)
+heroku	https://git.heroku.com/radiant-brook-89291.git (push)
+origin	https://github.com/alee092017/InkAppAgain.git (fetch)
+origin	https://github.com/alee092017/InkAppAgain.git (push)
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ git remote rm origin
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ git remote add origin https://github.com/alee092017/InkAppDeploy.git
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   Gemfile
+	modified:   Gemfile.lock
+	modified:   config/database.yml
+	modified:   db/schema.rb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ git push
+Counting objects: 450, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (425/425), done.
+Writing objects: 100% (450/450), 626.34 KiB | 7.93 MiB/s, done.
+Total 450 (delta 210), reused 0 (delta 0)
+remote: Resolving deltas: 100% (210/210), done.
+To https://github.com/alee092017/InkAppDeploy.git
+ * [new branch]      master -> master
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ git add .
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[+]
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   Gemfile
+	modified:   Gemfile.lock
+	modified:   config/database.yml
+	modified:   db/schema.rb
+
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[+]
+$ git commit -m "had to change sqlite3 to postgres."
+[master 48dde07] had to change sqlite3 to postgres.
+ 4 files changed, 12 insertions(+), 10 deletions(-)
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master
+$ git push origin master
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 945 bytes | 945.00 KiB/s, done.
+Total 8 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), completed with 6 local objects.
+To https://github.com/alee092017/InkAppDeploy.git
+   3311136..48dde07  master -> master
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master
+$ rails db:create
+Database 'my_database_development' already exists
+Database 'my_database_development' already exists
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master
+$ rails db:migrate
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ git push heroku master
+Counting objects: 458, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (433/433), done.
+Writing objects: 100% (458/458), 627.07 KiB | 7.84 MiB/s, done.
+Total 458 (delta 216), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote:  !     Warning: Multiple default buildpacks reported the ability to handle this app. The first buildpack in the list below will be used.
+remote: 			Detected buildpacks: Ruby,Node.js
+remote: 			See https://devcenter.heroku.com/articles/buildpacks#buildpack-detect-order
+remote: -----> Ruby app detected
+remote: -----> Compiling Ruby/Rails
+remote: -----> Using Ruby version: ruby-2.3.4
+remote: -----> Installing dependencies using bundler 1.15.2
+remote:        Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment
+remote:        Warning: the running version of Bundler (1.15.2) is older than the version that created the lockfile (1.16.0). We suggest you upgrade to the latest version of Bundler by running `gem install bundler`.
+remote:        Fetching gem metadata from https://rubygems.org/........
+remote:        Fetching version metadata from https://rubygems.org/..
+remote:        Fetching dependency metadata from https://rubygems.org/.
+remote:        Fetching rake 12.3.0
+remote:        Fetching concurrent-ruby 1.0.5
+remote:        Fetching minitest 5.10.3
+remote:        Installing minitest 5.10.3
+remote:        Installing concurrent-ruby 1.0.5
+remote:        Installing rake 12.3.0
+remote:        Fetching thread_safe 0.3.6
+remote:        Installing thread_safe 0.3.6
+remote:        Fetching builder 3.2.3
+remote:        Installing builder 3.2.3
+remote:        Fetching erubi 1.7.0
+remote:        Installing erubi 1.7.0
+remote:        Fetching mini_portile2 2.3.0
+remote:        Fetching crass 1.0.3
+remote:        Fetching rack 2.0.3
+remote:        Installing mini_portile2 2.3.0
+remote:        Installing crass 1.0.3
+remote:        Fetching nio4r 2.1.0
+remote:        Installing rack 2.0.3
+remote:        Fetching websocket-extensions 0.1.3
+remote:        Installing nio4r 2.1.0 with native extensions
+remote:        Installing websocket-extensions 0.1.3
+remote:        Fetching mini_mime 1.0.0
+remote:        Installing mini_mime 1.0.0
+remote:        Fetching arel 8.0.0
+remote:        Installing arel 8.0.0
+remote:        Fetching execjs 2.7.0
+remote:        Installing execjs 2.7.0
+remote:        Fetching bcrypt 3.1.11
+remote:        Fetching rb-fsevent 0.10.2
+remote:        Installing bcrypt 3.1.11 with native extensions
+remote:        Installing rb-fsevent 0.10.2
+remote:        Fetching ffi 1.9.18
+remote:        Installing ffi 1.9.18 with native extensions
+remote:        Using bundler 1.15.2
+remote:        Fetching climate_control 0.2.0
+remote:        Installing climate_control 0.2.0
+remote:        Fetching coffee-script-source 1.12.2
+remote:        Installing coffee-script-source 1.12.2
+remote:        Fetching method_source 0.9.0
+remote:        Installing method_source 0.9.0
+remote:        Fetching thor 0.20.0
+remote:        Installing thor 0.20.0
+remote:        Fetching orm_adapter 0.5.0
+remote:        Installing orm_adapter 0.5.0
+remote:        Fetching multi_json 1.12.2
+remote:        Installing multi_json 1.12.2
+remote:        Fetching multipart-post 2.0.0
+remote:        Installing multipart-post 2.0.0
+remote:        Fetching hashie 3.5.6
+remote:        Installing hashie 3.5.6
+remote:        Fetching mime-types-data 3.2016.0521
+remote:        Installing mime-types-data 3.2016.0521
+remote:        Fetching mimemagic 0.3.2
+remote:        Installing mimemagic 0.3.2
+remote:        Fetching pg 0.21.0
+remote:        Installing pg 0.21.0 with native extensions
+remote:        Fetching puma 3.11.0
+remote:        Installing puma 3.11.0 with native extensions
+remote:        Fetching tilt 2.0.8
+remote:        Installing tilt 2.0.8
+remote:        Fetching turbolinks-source 5.0.3
+remote:        Installing turbolinks-source 5.0.3
+remote:        Fetching i18n 0.9.1
+remote:        Installing i18n 0.9.1
+remote:        Fetching tzinfo 1.2.4
+remote:        Installing tzinfo 1.2.4
+remote:        Fetching nokogiri 1.8.1
+remote:        Installing nokogiri 1.8.1 with native extensions
+remote:        Fetching websocket-driver 0.6.5
+remote:        Installing websocket-driver 0.6.5 with native extensions
+remote:        Fetching mail 2.7.0
+remote:        Installing mail 2.7.0
+remote:        Fetching rack-test 0.8.2
+remote:        Installing rack-test 0.8.2
+remote:        Fetching warden 1.2.7
+remote:        Installing warden 1.2.7
+remote:        Fetching sprockets 3.7.1
+remote:        Installing sprockets 3.7.1
+remote:        Fetching autoprefixer-rails 7.2.3
+remote:        Installing autoprefixer-rails 7.2.3
+remote:        Fetching uglifier 4.0.2
+remote:        Installing uglifier 4.0.2
+remote:        Fetching cocaine 0.5.8
+remote:        Installing cocaine 0.5.8
+remote:        Fetching coffee-script 2.4.1
+remote:        Installing coffee-script 2.4.1
+remote:        Fetching elasticsearch-api 6.0.0
+remote:        Installing elasticsearch-api 6.0.0
+remote:        Fetching faraday 0.13.1
+remote:        Installing faraday 0.13.1
+remote:        Fetching mime-types 3.1
+remote:        Installing mime-types 3.1
+remote:        Fetching rb-inotify 0.9.10
+remote:        Installing rb-inotify 0.9.10
+remote:        Fetching turbolinks 5.0.1
+remote:        Installing turbolinks 5.0.1
+remote:        Fetching activesupport 5.1.4
+remote:        Installing activesupport 5.1.4
+remote:        Fetching elasticsearch-transport 6.0.0
+remote:        Installing elasticsearch-transport 6.0.0
+remote:        Fetching sass-listen 4.0.0
+remote:        Installing sass-listen 4.0.0
+remote:        Fetching globalid 0.4.1
+remote:        Installing globalid 0.4.1
+remote:        Fetching activemodel 5.1.4
+remote:        Installing activemodel 5.1.4
+remote:        Fetching jbuilder 2.7.0
+remote:        Installing jbuilder 2.7.0
+remote:        Fetching elasticsearch 6.0.0
+remote:        Installing elasticsearch 6.0.0
+remote:        Fetching sass 3.5.4
+remote:        Installing sass 3.5.4
+remote:        Fetching activejob 5.1.4
+remote:        Installing activejob 5.1.4
+remote:        Fetching activerecord 5.1.4
+remote:        Installing activerecord 5.1.4
+remote:        Fetching paperclip 5.1.0
+remote:        Installing paperclip 5.1.0
+remote:        Fetching searchkick 2.4.0
+remote:        Installing searchkick 2.4.0
+remote:        Fetching bootstrap-sass 3.3.7
+remote:        Installing bootstrap-sass 3.3.7
+remote:        Fetching rails-dom-testing 2.0.3
+remote:        Fetching loofah 2.1.1
+remote:        Installing rails-dom-testing 2.0.3
+remote:        Installing loofah 2.1.1
+remote:        Fetching rails-html-sanitizer 1.0.3
+remote:        Installing rails-html-sanitizer 1.0.3
+remote:        Fetching actionview 5.1.4
+remote:        Installing actionview 5.1.4
+remote:        Fetching actionpack 5.1.4
+remote:        Installing actionpack 5.1.4
+remote:        Fetching actioncable 5.1.4
+remote:        Fetching actionmailer 5.1.4
+remote:        Fetching railties 5.1.4
+remote:        Installing actionmailer 5.1.4
+remote:        Installing actioncable 5.1.4
+remote:        Installing railties 5.1.4
+remote:        Fetching sprockets-rails 3.2.1
+remote:        Installing sprockets-rails 3.2.1
+remote:        Fetching coffee-rails 4.2.2
+remote:        Fetching responders 2.4.0
+remote:        Fetching jquery-rails 4.3.1
+remote:        Installing coffee-rails 4.2.2
+remote:        Installing responders 2.4.0
+remote:        Fetching rails 5.1.4
+remote:        Fetching sass-rails 5.0.7
+remote:        Installing rails 5.1.4
+remote:        Fetching devise 4.3.0
+remote:        Installing sass-rails 5.0.7
+remote:        Installing jquery-rails 4.3.1
+remote:        Installing devise 4.3.0
+remote:        Bundle complete! 21 Gemfile dependencies, 77 gems now installed.
+remote:        Gems in the groups development and test were not installed.
+remote:        Bundled gems are installed into ./vendor/bundle.
+remote:        Post-install message from paperclip:
+remote:        ##################################################
+remote:        #  NOTE FOR UPGRADING FROM 4.3.0 OR EARLIER       #
+remote:        ##################################################
+remote:        Paperclip is now compatible with aws-sdk >= 2.0.0.
+remote:        If you are using S3 storage, aws-sdk >= 2.0.0 requires you to make a few small
+remote:        changes:
+remote:        * You must set the `s3_region`
+remote:        * If you are explicitly setting permissions anywhere, such as in an initializer,
+remote:        note that the format of the permissions changed from using an underscore to
+remote:        using a hyphen. For example, `:public_read` needs to be changed to
+remote:        `public-read`.
+remote:        For a walkthrough of upgrading from 4 to 5 and aws-sdk >= 2.0 you can watch
+remote:        http://rubythursday.com/episodes/ruby-snack-27-upgrade-paperclip-and-aws-sdk-in-prep-for-rails-5
+remote:        The latest bundler is 1.16.0, but you are currently running 1.15.2.
+remote:        To update, run `gem install bundler`
+remote:        Bundle completed (31.13s)
+remote:        Cleaning up the bundler cache.
+remote: -----> Installing node-v6.11.1-linux-x64
+remote: -----> Detecting rake tasks
+remote: -----> Preparing app for Rails asset pipeline
+remote:        Running: rake assets:precompile
+remote:        Yarn executable was not detected in the system.
+remote:        Download Yarn at https://yarnpkg.com/en/docs/install
+remote:        I, [2017-12-20T07:25:38.281581 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/Bootstrap-HeaderPartial-CSS-faa0bdd8b28b7ef530f6e0fa7dc8edceba826a49b975c882fffdf7857162eb80.png
+remote:        I, [2017-12-20T07:25:38.284669 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/Metropolitain-FountainPen-22248adc4b5dae90e665fe1d9dc4e5d2a93cae14e7710fdbc0e57510c64ed4e7.jpg
+remote:        I, [2017-12-20T07:25:38.287054 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/OhtoCeramic-42de9ab94d56e82a5d2fc5cc3236db211665ee481930969ea2d0acd99dcd7bb5.jpg
+remote:        I, [2017-12-20T07:25:38.289379 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/Staedtler--Image-Liner-c2c3862a3e735731ff1509f4280691764dd0527303ff8c1162d7ad92cc281636.jpg
+remote:        I, [2017-12-20T07:25:38.291156 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/star-half-db15fb9b3561d5c741d8aea9ef4f0957bd9bc51aa1caa6d7a5c316e083c1abd5.png
+remote:        I, [2017-12-20T07:25:38.293587 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/star-off-6aaeebdaab93d594c005d366ce0d94fba02e7a07fd03557dbee8482f04a91c22.png
+remote:        I, [2017-12-20T07:25:38.295538 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/star-on-fd26bf0ea0990cfd808f7540f958eed324b86fc609bf56ec2b3a5612cdfde5f5.png
+remote:        I, [2017-12-20T07:25:38.297514 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/test1-7ae5828d18fe3db09812d3e609386b4918a3c2637fcfe16cc353cca8b3987245.jpg
+remote:        I, [2017-12-20T07:25:38.299500 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/test2-02f523337c1d06ad8caead3a925a7c90d79f604d2771d1a6c85a397d78878284.jpg
+remote:        I, [2017-12-20T07:25:38.301642 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/test3-fc094d874544f3fc16889bacf29266213f4d23eb89481ddacc6f9f44847d62ee.jpg
+remote:        I, [2017-12-20T07:25:38.303574 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/test4-9faf3dc0bebd862abc9d475f96396d5a38b7660536dae9c5ad32c6fddad59581.jpg
+remote:        I, [2017-12-20T07:25:38.305568 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/test5-a7a3179f09de48e912c5a3a17ed0e1a15f2d3c05905d2849a5633f3365e46589.jpg
+remote:        I, [2017-12-20T07:25:38.307697 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/uniball-signo-slim-44222dfaa78e7bda110920297b32883b3262034e3831f36c3d009651f7ec18b2.jpg
+remote:        I, [2017-12-20T07:25:44.822648 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/application-cb314c2beb1d03ade13af7fe8051aa7e3bab322e8b718e3aefbf79bc7883c6c9.js
+remote:        I, [2017-12-20T07:25:44.823357 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/application-cb314c2beb1d03ade13af7fe8051aa7e3bab322e8b718e3aefbf79bc7883c6c9.js.gz
+remote:        I, [2017-12-20T07:25:52.023311 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/application-112b5d24f1756bb970719180795ebb0e162e4a9d3c9ebbc545e3e589733b45e6.css
+remote:        I, [2017-12-20T07:25:52.023514 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/application-112b5d24f1756bb970719180795ebb0e162e4a9d3c9ebbc545e3e589733b45e6.css.gz
+remote:        I, [2017-12-20T07:25:52.025634 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/bootstrap/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot
+remote:        I, [2017-12-20T07:25:52.026430 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/bootstrap/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot.gz
+remote:        I, [2017-12-20T07:25:52.027208 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2
+remote:        I, [2017-12-20T07:25:52.029963 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/bootstrap/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff
+remote:        I, [2017-12-20T07:25:52.030661 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/bootstrap/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf
+remote:        I, [2017-12-20T07:25:52.031291 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/bootstrap/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf.gz
+remote:        I, [2017-12-20T07:25:52.032001 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/bootstrap/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg
+remote:        I, [2017-12-20T07:25:52.032955 #1527]  INFO -- : Writing /tmp/build_c7cc4881507912a4f5bdebdb67ce1c8a/public/assets/bootstrap/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg.gz
+remote:        Asset precompilation completed (16.00s)
+remote:        Cleaning assets
+remote:        Running: rake assets:clean
+remote: 
+remote: ###### WARNING:
+remote:        You have not declared a Ruby version in your Gemfile.
+remote:        To set your Ruby version add this line to your Gemfile:
+remote:        ruby '2.3.4'
+remote:        # See https://devcenter.heroku.com/articles/ruby-versions for more information.
+remote: 
+remote: ###### WARNING:
+remote:        No Procfile detected, using the default web server.
+remote:        We recommend explicitly declaring how to boot your server process via a Procfile.
+remote:        https://devcenter.heroku.com/articles/ruby-default-web-server
+remote: 
+remote: -----> Discovering process types
+remote:        Procfile declares types     -> (none)
+remote:        Default types for buildpack -> console, rake, web, worker
+remote: 
+remote: -----> Compressing...
+remote:        Done: 41.1M
+remote: -----> Launching...
+remote:        Released v5
+remote:        https://radiant-brook-89291.herokuapp.com/ deployed to Heroku
+remote: 
+remote: Verifying deploy... done.
+To https://git.heroku.com/radiant-brook-89291.git
+ * [new branch]      master -> master
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ heroku open
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ brew install yarn
+Warning: yarn 1.3.2 is already installed
+andrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ heroku logs --tail
+2017-12-20T07:26:39.454652+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2017-12-20T07:26:39.454653+00:00 app[web.1]:                      pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+2017-12-20T07:26:39.454653+00:00 app[web.1]:                      c.collname, col_description(a.attrelid, a.attnum) AS comment
+2017-12-20T07:26:39.454654+00:00 app[web.1]:                 FROM pg_attribute a
+2017-12-20T07:26:39.454655+00:00 app[web.1]:                 LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2017-12-20T07:26:39.454656+00:00 app[web.1]:                 LEFT JOIN pg_type t ON a.atttypid = t.oid
+2017-12-20T07:26:39.454657+00:00 app[web.1]:                 LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+2017-12-20T07:26:39.454657+00:00 app[web.1]:                WHERE a.attrelid = '"users"'::regclass
+2017-12-20T07:26:39.454658+00:00 app[web.1]:                  AND a.attnum > 0 AND NOT a.attisdropped
+2017-12-20T07:26:39.454658+00:00 app[web.1]:                ORDER BY a.attnum
+2017-12-20T07:26:39.454659+00:00 app[web.1]: ):
+2017-12-20T07:26:39.454958+00:00 app[web.1]: F, [2017-12-20T07:26:39.454687 #4] FATAL -- : [6906fa94-fb4e-47e3-8fb6-fd6853ae2238]   
+2017-12-20T07:26:39.455176+00:00 app[web.1]: F, [2017-12-20T07:26:39.455038 #4] FATAL -- : [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.4/lib/active_record/connection_adapters/postgresql/database_statements.rb:61:in `async_exec'
+2017-12-20T07:26:39.455178+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.4/lib/active_record/connection_adapters/postgresql/database_statements.rb:61:in `block (2 levels) in query'
+2017-12-20T07:26:39.455179+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activesupport-5.1.4/lib/active_support/dependencies/interlock.rb:46:in `block in permit_concurrent_loads'
+2017-12-20T07:26:39.455180+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activesupport-5.1.4/lib/active_support/concurrency/share_lock.rb:185:in `yield_shares'
+2017-12-20T07:26:39.455181+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activesupport-5.1.4/lib/active_support/dependencies/interlock.rb:45:in `permit_concurrent_loads'
+2017-12-20T07:26:39.455182+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.4/lib/active_record/connection_adapters/postgresql/database_statements.rb:60:in `block in query'
+2017-12-20T07:26:39.455183+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract_adapter.rb:612:in `block (2 levels) in log'
+2017-12-20T07:26:39.455183+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/ruby-2.3.4/lib/ruby/2.3.0/monitor.rb:214:in `mon_synchronize'
+2017-12-20T07:26:39.455184+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract_adapter.rb:611:in `block in log'
+2017-12-20T07:26:39.455185+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activesupport-5.1.4/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+2017-12-20T07:26:39.455186+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract_adapter.rb:603:in `log'
+2017-12-20T07:26:39.455187+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.4/lib/active_record/connection_adapters/postgresql/database_statements.rb:59:in `query'
+2017-12-20T07:26:39.455188+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.4/lib/active_record/connection_adapters/postgresql_adapter.rb:763:in `column_definitions'
+2017-12-20T07:26:39.455188+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract_adapter.rb:166:in `columns'
+2017-12-20T07:26:39.455189+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.4/lib/active_record/connection_adapters/schema_cache.rb:67:in `columns'
+2017-12-20T07:26:39.455190+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.4/lib/active_record/connection_adapters/schema_cache.rb:73:in `columns_hash'
+2017-12-20T07:26:39.455191+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.4/lib/active_record/model_schema.rb:471:in `load_schema!'
+2017-12-20T07:26:39.455191+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.4/lib/active_record/attributes.rb:233:in `load_schema!'
+2017-12-20T07:26:39.455192+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.4/lib/active_record/attribute_decorators.rb:50:in `load_schema!'
+2017-12-20T07:26:39.455193+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.4/lib/active_record/model_schema.rb:464:in `block in load_schema'
+2017-12-20T07:26:39.455193+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/ruby-2.3.4/lib/ruby/2.3.0/monitor.rb:214:in `mon_synchronize'
+2017-12-20T07:26:39.455194+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.4/lib/active_record/model_schema.rb:461:in `load_schema'
+2017-12-20T07:26:39.455195+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.4/lib/active_record/model_schema.rb:353:in `attribute_types'
+2017-12-20T07:26:39.455196+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.4/lib/active_record/attribute_methods.rb:179:in `has_attribute?'
+2017-12-20T07:26:39.455196+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.4/lib/active_record/inheritance.rb:55:in `new'
+2017-12-20T07:26:39.455200+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/devise-4.3.0/app/controllers/devise/sessions_controller.rb:9:in `new'
+2017-12-20T07:26:39.455201+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+2017-12-20T07:26:39.455202+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/abstract_controller/base.rb:186:in `process_action'
+2017-12-20T07:26:39.455202+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_controller/metal/rendering.rb:30:in `process_action'
+2017-12-20T07:26:39.455203+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+2017-12-20T07:26:39.455204+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activesupport-5.1.4/lib/active_support/callbacks.rb:131:in `run_callbacks'
+2017-12-20T07:26:39.455205+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/abstract_controller/callbacks.rb:19:in `process_action'
+2017-12-20T07:26:39.455206+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_controller/metal/rescue.rb:20:in `process_action'
+2017-12-20T07:26:39.455207+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+2017-12-20T07:26:39.455209+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activesupport-5.1.4/lib/active_support/notifications.rb:166:in `block in instrument'
+2017-12-20T07:26:39.455209+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activesupport-5.1.4/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+2017-12-20T07:26:39.455210+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activesupport-5.1.4/lib/active_support/notifications.rb:166:in `instrument'
+2017-12-20T07:26:39.455211+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+2017-12-20T07:26:39.455212+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+2017-12-20T07:26:39.455213+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.4/lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+2017-12-20T07:26:39.455212+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/searchkick-2.4.0/lib/searchkick/logging.rb:209:in `process_action'
+2017-12-20T07:26:39.455214+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/abstract_controller/base.rb:124:in `process'
+2017-12-20T07:26:39.455215+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionview-5.1.4/lib/action_view/rendering.rb:30:in `process'
+2017-12-20T07:26:39.455216+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_controller/metal.rb:189:in `dispatch'
+2017-12-20T07:26:39.455217+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_controller/metal.rb:253:in `dispatch'
+2017-12-20T07:26:39.455217+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+2017-12-20T07:26:39.455218+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:31:in `serve'
+2017-12-20T07:26:39.455219+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/mapper.rb:16:in `block in <class:Constraints>'
+2017-12-20T07:26:39.455220+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/mapper.rb:46:in `serve'
+2017-12-20T07:26:39.455221+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:50:in `block in serve'
+2017-12-20T07:26:39.455222+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:33:in `each'
+2017-12-20T07:26:39.455223+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:33:in `serve'
+2017-12-20T07:26:39.455224+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:834:in `call'
+2017-12-20T07:26:39.455228+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/warden-1.2.7/lib/warden/manager.rb:36:in `block in call'
+2017-12-20T07:26:39.455229+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/warden-1.2.7/lib/warden/manager.rb:35:in `catch'
+2017-12-20T07:26:39.455230+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/warden-1.2.7/lib/warden/manager.rb:35:in `call'
+2017-12-20T07:26:39.455231+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/conditional_get.rb:25:in `call'
+2017-12-20T07:26:39.455231+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/etag.rb:25:in `call'
+2017-12-20T07:26:39.455232+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/head.rb:12:in `call'
+2017-12-20T07:26:39.455233+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/session/abstract/id.rb:226:in `call'
+2017-12-20T07:26:39.455233+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/session/abstract/id.rb:232:in `context'
+2017-12-20T07:26:39.455234+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/cookies.rb:613:in `call'
+2017-12-20T07:26:39.455235+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+2017-12-20T07:26:39.455236+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activesupport-5.1.4/lib/active_support/callbacks.rb:97:in `run_callbacks'
+2017-12-20T07:26:39.455255+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+2017-12-20T07:26:39.455257+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+2017-12-20T07:26:39.455258+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+2017-12-20T07:26:39.455259+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+2017-12-20T07:26:39.455259+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+2017-12-20T07:26:39.455260+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+2017-12-20T07:26:39.455261+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+2017-12-20T07:26:39.455262+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+2017-12-20T07:26:39.455262+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+2017-12-20T07:26:39.455264+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+2017-12-20T07:26:39.455263+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+2017-12-20T07:26:39.455264+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+2017-12-20T07:26:39.455265+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+2017-12-20T07:26:39.455266+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+2017-12-20T07:26:39.455267+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+2017-12-20T07:26:39.455268+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+2017-12-20T07:26:39.455268+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+2017-12-20T07:26:39.455270+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+2017-12-20T07:26:39.455270+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/puma-3.11.0/lib/puma/configuration.rb:225:in `call'
+2017-12-20T07:26:39.455271+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/puma-3.11.0/lib/puma/server.rb:624:in `handle_request'
+2017-12-20T07:26:39.455276+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/puma-3.11.0/lib/puma/server.rb:438:in `process_client'
+2017-12-20T07:26:39.455277+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/puma-3.11.0/lib/puma/server.rb:302:in `block in run'
+2017-12-20T07:26:39.455277+00:00 app[web.1]: [6906fa94-fb4e-47e3-8fb6-fd6853ae2238] vendor/bundle/ruby/2.3.0/gems/puma-3.11.0/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+2017-12-20T07:26:39.456967+00:00 heroku[router]: at=info method=GET path="/users/sign_in" host=radiant-brook-89291.herokuapp.com request_id=6906fa94-fb4e-47e3-8fb6-fd6853ae2238 fwd="71.251.203.17" dyno=web.1 connect=0ms service=183ms status=500 bytes=1827 protocol=https
+2017-12-20T07:26:39.650833+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=radiant-brook-89291.herokuapp.com request_id=e7aa9918-420b-4efb-b4ab-e0916803f73e fwd="71.251.203.17" dyno=web.1 connect=1ms service=2ms status=200 bytes=143 protocol=https
+
+
+
+
+
+
+^Candrealee ~/CODE/wdi/UNIT_04/Project/InkApp329/InkAppDeploy/InkApp on master[!]
+$ †
